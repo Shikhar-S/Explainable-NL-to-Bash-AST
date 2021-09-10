@@ -1,0 +1,321 @@
+kill -9 16085
+awk '{s+=$1} END {printf "%.0f", s}' mydatafile
+find / -mindepth 3  -name "*log"
+mkdir -p foo
+history -n
+mkdir aaa
+find . -name "*.bak" -delete
+read -r -n 1 -p "${1:-Continue?} [y/n]: " REPLY
+chown -R $1:httpd *
+rev file.txt
+find .
+find . -ls
+split -b 1024m file.tar.gz
+w
+find . -name ".txt"
+uniq -w12 -c file
+gzip "$file"
+chown user:group file ...
+find . -path ./src/emacs -prune -o -print
+find . -user john
+diff /destination/dir/1 /destination/dir/2 -r -X exclude.pats
+find / -newerct '1 minute ago' -print
+find /etc -name "*.conf"
+mkdir -p dir
+find /nfs/office -name .user.log -print
+cd -
+hostname -I
+rsync -rl --delete-after --safe-links pi@192.168.1.PI:/{lib,usr} $HOME/raspberrypi/rootfs
+find / -perm /u=r
+ssh user@server
+chgrp "${USER}" myprogram
+find /usr/share/man/ -regex .*grep*
+find /var/www
+watch -n 1 date
+mkdir /path/to/destination
+find . -name foo.txt
+find / -user root
+find . -ls -name "*.ksh"
+read -n1 -p "Pick a letter to run a command [A, B, or C for more info] " runCommand
+find / -group staff -print
+find . -name '*my key phrase*'
+tr -sc '[:punct:]' '\n'
+chown -R tomcat7:tomcat7 webapps temp logs work conf
+find . -iname filename.txt
+rsync -Prt --size-only original_dir copy_dir
+abspath=$(readlink -m $path)
+sort temp.txt -otemp.txt
+var="$(find . -name 'gen*.bt2')"
+find / -xdev -name \*.rpm
+find -L
+find . -name “*.old” -delete
+read -p "Are you sure you want to continue? <y/N> " prompt
+history -s "$line"
+dig -x 72.51.34.34
+find / -name composer.json
+sudo chown nobody /var/www/html/mysite/tmp_file_upload/
+find $FULFILLMENT -ls
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/
+split -b 1M -d  file.txt file
+read -n 1 -p "Is this a good question (y/n)? " answer
+find / \! -readable -prune -o -name '*.jbd' -ls
+cat -n
+find -perm 664
+find . -name *.jpg
+ssh -N -L 2222:remote.example.com:22 bridge.example.com&
+column -t -s $'\n' list-of-entries.txt
+grep -rnw "pattern"
+find / -user seamstress -iname “*.pdf”
+find /home -user sam
+find -not -name "*testfileasdf*"
+ssh -l myName -p 22 hostname
+popd
+find . -path './src/emacs' -prune -o -print
+join -t: selection2.txt selection1.txt
+find . -path ./dir1\*  -o -print
+sudo chown -Rf www-data *
+find *
+find .  -path '*/*config'
+rsync -rvv /path/to/data/myappdata/*.txt user@host:/remote/path/to/data/myappdata/
+find . -maxdepth 4 -name 'restore.php'
+find . -mindepth 2
+mkdir -p dir
+rsync -rtuv /path/to/dir_a/* /path/to/dir_b
+pstree -a pid
+bzip2 -kv */*/*/*/*/*/*/*
+VARIABLENAME=$(date -d @133986838)
+find ~/ -name '*.txt'
+df -h path-to-file
+find ~ -name readme.txt
+ln -nsf $lastModified $SYMLINK_PATH
+grep -r "string to be searched"  /path/to/dir
+find / -name "dir-name-here"
+read -rp $'Are you sure (Y/n) : ' -ei $'Y' key
+tree $absolute/path/of/your/dir
+find -ls
+find . -name vmware-*.log -delete
+find dir -name '?????????????????????????????????'
+pstree -s $ID
+find . -newer document -print
+find /usr -newermt "Feb 1"
+tree -Csu
+find /usr/share/doc /usr/doc /usr/locale/doc -name instr.txt
+find / -user root -name FindCommandExamples.txt
+set -ex
+set +a
+egrep -R "word-1|word-2” directory-path
+ifconfig eth0:fakenfs 192.0.2.55 netmask 255.255.255.255
+tmux
+rsync -av --delete src-dir remote-user@remote-host:dest-dir
+crontab -u apache -l
+history -r file.txt
+find . -print
+find /usr -group staff
+set -e
+find / -name passwd
+rename s/0000/000/ F0000*
+find / -user vivek -name "*.sh"
+find /var/www -name *.gif
+find . -name "*.bam"
+find /Users/Me/Desktop -user popo -perm 777
+od -xcb testscript.sh
+find /var/tmp -uid 1000
+find ./ -user root
+mkdir aaa/bbb
+file=`basename "$1"`
+pushd -2
+find -user root -o -user www-data
+find . -name ".DS_STORE"
+find . -name \*.sql -not -samefile $oldest_to_keep -not -newer $oldest_to_keep
+du -sh *
+find / -size 0 -print
+find /home/wsuNID/ -name file1.txt
+find . -print
+curl http://127.0.0.1:8000 -o index.html
+find . ! -name "$controlchars"
+diff -up fastcgi_params fastcgi.conf
+find . -name '1US*'
+comm -23 a.txt b.txt
+rsync -a --delete blanktest/ test/
+ln -sf '/cygdrive/c/Users/Mic/Desktop/PENDING - Pics/' /cygdrive/c/Users/Mic/mypics
+find / /usr -xdev -name document -print
+rsync -avz --ignore-existing /source folder/* user@remoteserver:/dstfolder/
+find . -name "*.sh"
+grep -insr "pattern" *
+find -mindepth 2 -maxdepth 3 -name file
+readlink -m /path/there/../../
+chown user_name file
+ln myfile.txt my-hard-link
+find /path/to/dir -newermt “Feb 07”
+find /home -not -group test
+rm -f A*.pdf
+diff --brief -r dir1/ dir2/
+tar -xvzf passwd.tar.gz
+find . -name \*.tex
+find / -regex ".*\.\(xls\|csv\)"
+find . -name *.py
+find /path -perm /ugo+x
+find -cnewer /etc/fstab
+find /home -user tecmint -iname "*.txt"
+nl -v1000001 file
+sort -n
+a=$(false)
+split -n 10000 /usr/bin/cat
+find $HOME  -mtime 0
+rsync --recursive emptydir/ destination/newdir
+chmod -Rf u+w /path/to/git/repo/objects
+chown -R root:root /var/log/jenkins
+bind -r '\e'
+uniq
+find ~/Programming -path '*/src/*.c'
+find /usr/local -iname "*blast*"
+find . -perm /a=x
+diff -y one.txt two.txt
+find . -name ".DS_STORE" -delete
+find ~ -empty
+watch -d ls -l
+find . -name '*$VERSION*'
+grep -RIl "" .
+tar czfP backup.tar.gz /path/to/catalog
+sudo chown -R $USER /usr/local/lib/node_modules
+find /home/user/Desktop -name '*.bmp' -o -name '*.txt'
+tmux -2
+find . -empty -ok rm {}\;
+which gradle
+mkdir ~/log
+sudo chown root /home/bob
+find . -name aaa.txt
+set -f
+find /home -xdev -samefile file1
+bzip2 -kv */*/*/*/*
+find . -name ”*.old” -print
+sed -i 's/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g' index.html
+find / -perm /u=r
+source ~/.profile
+split -n 1000 /usr/bin/firefox
+find /myDir -mindepth 1 -mtime 7 -delete
+mkdir /cpuset
+find -cnewer /etc/fstab
+sudo chown root file.sh
+tar xzf archive.tar.gz -C /destination
+cal 2 1900
+find /usr/local/fonts -user warwick
+paste -d "" - -
+md5sum /path/to/destination/file
+chmod 444 .bash_logout .bashrc .profile
+rsync -avR foo/bar/baz.c remote:/tmp/
+find . -name *.pdf
+find /var/www/ -name wp-config.php
+find . -size 300M
+readlink -f  /path/here/..
+set -v
+find dir -name '?????????????????????????????????'
+history -r "$HISTFILE"     #Alternative: exec bash
+mkdir /tmp/googleTestMock
+find . -maxdepth 1 -not -iname file.txt
+find /home -user exampleuser -mtime 7 -iname ".db"
+sudo chown root process
+find . -regex '.*myfile[0-9][0-9]?'
+jobs -l
+find . -name "*Linkin Park"
+ln -s www1 www
+sed -i bak -e s/STRING_TO_REPLACE/REPLACE_WITH/g index.html
+find -newer ordinary_file
+find empty1 empty2 not_empty -prune -empty
+sudo chmod 755 .git/hooks/pre-commit
+df -BG
+find /usr -maxdepth 1 -print
+var=$(ls -l)
+sudo mount device_name mount_point
+find ./
+sudo mv edited_blah.tmp /etc/blah
+find /home/jassi/ -name "aliencoders.[0-9]+"
+mkdir saxon_docs
+find . — name "[a‑z][a‑z][0—9][0—9].txt" — print
+mv /usr/bin/openssl /root/
+chown $1:httpd .htaccess
+kill $!
+read -n1 -s
+fold -w3
+find . -maxdepth 1 -name "$a" -print -quit
+rsync -a myfile /foo/bar/
+read -p "Continue (y/n)?" CONT
+ln -r -s "$orig_dest" "$dest_dir/$orig_name"
+find -print0
+find /home -group developer
+find . -name 'some_text_2014.08.19*'
+find -newer foo.txt
+read -u 4 line
+seq -w 30
+find .  -path '*f'
+find . -nogroup
+sleep 10
+ssh -fNT -L8888:proxyhost:8888 -R22222:localhost:22 officefirewall
+read -d '' line
+mkdir -p ~/temp/bluecove/target/
+chown -R owner:owner public_html
+rsync -az --delete /mnt/data/ /media/WD_Disk_1/current_working_data/;
+find . -regex '.*\(net\|comm\).*'
+sudo find . -name test2.h
+find /nas/projects/mgmt/scripts/perl -mtime 1 -daystart -iname "*.pl"
+read PASSWORD
+find -name "query"
+diff -qr dir1/ dir2/
+find /usr/local/doc -name '*.texi'
+chown -R owner:owner public_html
+find . -follow -inum 41525360
+find /some/dir/ -maxdepth 0 -empty -exec echo "huzzah" \;
+rsync -rtvpl /source/backup /destination
+mv * /tmp/blah/
+mkdir subdirectory
+find -D help
+find . -name '*.js'
+ssh -p 22 myName@hostname
+read -p "$*"
+find / -nogroup staff -print
+find /home -user joe
+find . ! -wholename "./etc*"
+find / -name httpd.conf -newer /etc/apache-perl/httpd.conf
+find . -path "./sk" -prune -o -name "*.txt" -print
+sed '/start/,+4d'
+find . -name "*.pl" -ls
+ssh-keygen -Hf ~/.ssh/known_hosts
+find ~/Library -name '* *'
+sudo chown root:dockerroot /var/run/docker.sock
+find -used +2
+set -v
+other="$(mktemp --directory)"
+find -name "MyCProgram.c"
+find . -perm 777 -print
+find . -name .svn -delete
+find /usr/share -name README
+sudo chmod 755 -R /opt/lampp/htdocs
+find . -maxdepth 1 -not -samefile /home/nez/file.txt
+find images -name "articles.jpg"
+chgrp pub public
+find ~ -name 'top*' -newer /etc/motd
+OS=`uname -s`
+find ./ -path ./beta/* -prune -o -iname example.com -print
+find . -name "*.pl"
+find -maxdepth num -name query
+find / -newer myfile
+find . -name test -prune -o -print
+find / -perm /a+w
+find / -atime 50
+find . -nouser -ls
+rsync -av $myFolder .
+cat ~/.ssh/config
+find / -name 'top*'
+tail -f /var/log/syslog
+sudo find / -iname '*.ogg'
+chown root:root script.sh
+crontab
+find A \! -path "A/a/*"
+find . -mnewer poop
+fg 1
+find . name *foo
+find . -name \*.plist
+find / -name “*.jpg”
+find / -name ”*filename*”
+su username
+find -newermt "mar 03, 2010 09:00" -not -newermt "mar 11, 2010" -ls

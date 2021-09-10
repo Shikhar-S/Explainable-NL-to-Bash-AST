@@ -1,0 +1,320 @@
+find / -newer ttt -user wnj -print
+find /etc -name '*.conf'
+find -name filename
+jobs -l
+find / -iname "*.mp3" -print
+find / -group group2
+find -name file1
+rename 's/_h.png/_half.png/' *.png
+find . -name "*js" -o -name "*rb"
+file -ib "$file"
+find -user takuya
+find /etc/. ! -name . -prune
+find /tmp -user ian
+sort -t$'\t' -k6V -k7n file
+find /home/user1 -name "*.bin"
+find . -name \*.c -print0
+find / -name "*gif" -print
+ssh-keygen -l -f /etc/ssh/ssh_host_ecdsa_key.pub
+find ~ -atime 100
+find . -mindepth 1 -name 'onlyme*'
+nl filename
+diff -y file1 file2
+find -newer /etc/passwd
+find /path -perm ugo+rwx
+less -S file
+find . -iregex ".*packet.*"
+find /tmp -user me -ls
+find . -lname '*sysdep.c'
+find / -name *.mp3
+find $DIR -name "*.txt" -print
+sudo find / -name file.txt
+info gcc "option index"
+ps -ef
+find 'my key phrase'
+find . -iname "*filename*"
+find /usr -name java
+find "/tmp/1" -iname "*.txt"
+find / -perm /u=s
+mkdir -p ~/foo/bar/baz ~/foo/bar/bif ~/foo/boo/bang
+find -mindepth num -name query
+find / -group users -iname "Dateiname"
+file ascii.txt
+ls -l /bin/echo
+find . -name "*.txt" -exec $SHELL -c 'echo "$0"' {} \;
+history -c
+ln -nsf alpha_2 alpha
+find . -empty
+ls -m
+find /home/pat -iname "*.conf"
+grep -v "#" -R  /var/spool/cron/tabs
+sudo mkdir -p $javaUsrLib
+$ ls -Fltr "./my dir" "./anotherdir"
+find . -depth -name *.zip
+find . ! -readable -prune
+find -name "$something"
+find test -name ".DS_Store" -delete
+find . -name '*shp*'
+find . -name \*.html
+find / -name .profile
+rename 's/(.*)$/new.$1/' original.filename
+rsync -av /path/to/files user@targethost:/path
+sort -m _tmp* -o data.tsv.sorted
+split -l 100 "$SOURCE_FILE"
+column -t -s' ' filename
+find myfile -perm 0644 -print
+man find
+find /root/of/where/files/are -name *company*
+tempd=`mktemp -d`
+mkdir -p directory{1..3}/subdirectory{1..3}/subsubdirectory{1..2}
+rsync -avzru --delete-excluded /media/Incoming/music/ server:/media/10001/music/
+find parent -name dir*
+chgrp -R GROUP /path/to/repo
+mkdir bravo_dir alpha_dir
+find ~ -name "test*" -print
+find / -user admin -print
+find . ! -path '*bar*' -print
+split -b 1024m "file.tar.gz" "file.tar.gz.part-"
+paste -s -d","
+cd /cygdrive/c/Program\ Files\ \(x86\)
+shred -v -n 1 -z -u /path/to/your/file
+find . -regex '\./[a-f0-9\-]\{36\}\.jpg'
+split -b 500M -d -a 4 INPUT_FILE_NAME input.part.
+find . -name "*.txt" -print
+chmod 644 img/* js/* html/*
+su -
+mkdir -p foo/bar/baz
+tree -L 2 -fi
+rsync -u src dest
+ssh -i ./device_id.pem -p 2222 deviceuser@middle.example.org
+split /tmp/files
+mount /dev/shm
+mkdir $dir
+env -i perl -V
+find $STARTDIR -name '*.ps' -print
+find . -iname foo
+CC=$(which cc) ./configure
+gzip -d --force * /etc
+mkdir /etc/cron.15sec
+grep -Ril "text-to-find-here" /
+find /home/username/public_html/images -name "articles.jpg"
+find /home -user tecmint -iname "*.txt"
+apropos -r '.*'
+find . -amin 10
+find . -name "*.java"
+find . -not -name "*.pl"
+read -t 0.1 -p "This will be sent to stderr"
+tail -n 1000 /var/spool/cron/*
+find . -name "*~" -delete
+chown -R :lighttpd /var/lib/php/session
+date -ud@0
+cd -L ..
+find -mtime 2
+find test -depth -empty -delete
+chown -R :daemon /tmp/php_session
+find src/js -name '*.js'
+find -delete
+read -r -p "${1:-Are you sure? [y/N]} " response
+kill -9 \`pgrep myprocess\`
+rm junk1 junk2 junk3
+mkdir -p project/{lib/ext,bin,src,doc/{html,info,pdf},demo/stat/a}
+find / -mindepth 3  -name "*log"
+find / -perm 777 -iname "filename"
+scp -C file remote:
+find -name \*.txt
+find / -perm 777 -iname "filename"
+find ./ -follow -lname "*"
+sed -ibak -e s/STRING_TO_REPLACE/REPLACE_WITH/g index.html
+find -name foo_bar
+man find
+find . ... -print -quit
+basename "some/unknown/amount/of/sub/folder/file.txt"
+find . -mtime 0 -print
+find . -size 6M
+find ! -path "dir1" -iname "*.mp3"
+shred -u $FILE
+find . -maxdepth 0 -print
+mkdir aaa/bbb
+HOSTNAME="`hostname`"
+mkdir /etc/cron.minute
+find ./ -name "somename.txt"
+uname -m
+find / -user user1
+find / -uid 1005
+find  .  -path  './src/emacs'  -prune  -o -print
+mkdir /cpuset
+history -r
+find -regex "$rx"
+find -s
+sed -f commandfile file
+find ~ -empty
+find /home -perm /a=x
+find .  -name "*.groovy" -not -path "./target/*" -print
+gzip -l archive.tar.gz
+find . -size 126M
+comm -23 "File 1" "File 2"
+gunzip -l file.zip
+find -iname *.SH
+find / -name httpd.conf
+find ~/ -maxdepth 3 -name teste.tex
+rm -fR "${TMP}/";
+tar -I 7zhelper.sh -cf OUTPUT_FILE.tar.7z paths_to_archive
+find /home ! -group test
+find / -name foo.bar -print
+find . -newer /bin/sh
+find /usr -newer /tmp/stamp$$
+find /home -iname "*.txt"
+find ~ -empty
+find . -print
+ln -sf $keyname     id_rsa
+find . -name "*.html" -print
+find . -name "search"
+source "$file"
+read -p "Is this a good question (y/n)? " answer
+find /dir -regex '.*2015.*\(album.*\|picture.*\)'
+find -name "*.cpp"
+find -iname '.#*'
+thisHOSTNAME=`hostname`
+find /home -perm /u=s
+find . -not -path '*/\.*'
+find / -perm 1551
+find xargstest/ -name 'file??'
+curl http://example.com/
+find -print0
+rm **/*.pyc
+find . -samefile /path/to/file
+ln -s "$source" -t ~/newlinks
+chgrp -R project_dev /home/user1/project/dev
+find / -inum 199053
+df -k .
+find -x / -name foo
+pstree -p
+mkdir /tmp/new
+env -u FOO somecommand
+cp -n src dest
+/usr/bin/find $DIR -maxdepth 1 -ipath $TMP_DIR -print -quit
+find ./ -regex "cmn-.*[\x4e00-\x9fa5]*\.xml"
+file ~/myfile
+split -l 20 $FILENAME xyz
+find $parentdir -name $tofind*
+find . -name '*1234.56789*'
+set -x
+find . -name something -print -quit
+bzip2 -d /tmp/itunes20140618.tbz
+find /var/log -group adm -name "*.log"
+find . -path './kt[0-9] '
+mv svnlog.py svnlog
+split -l 100 date.csv
+sudo ln -s /usr/include/oracle/11.2/client $ORACLE_HOME/include
+OUTPUT="$(ls -1)"
+chgrp
+find ./var/log
+find . -name \*.php
+chown -R antoniod:antoniod /opt/antoniod/
+find . -name '*.txt'
+sed -i.bak "s#https.*\.com#$pub_url#g" MyHTMLFile.html
+scp -v user@remotehost:/location/KMST_DataFile_*.kms
+read -e -p '> ' $1
+chown -R your_user_name.your_user_name 775 /workspace
+watch -n10 cat /tmp/iostat.running
+mv tobecopied/tobeexcluded .
+find "$HOME/" -name myfile.txt -print
+split -l5000000 randn20M.csv '_tmp';
+find "$directory" -perm "$permissions"
+sed 's/.*/\L&/'
+find -name file -ok echo '-ok is an action so an implicit -print is not applied' \;
+find / -nouser
+find -name '*.css'
+find / -group name_of_group
+find / -user root -name tecmint.txt
+find . -mtime 7 -name "*.html" -print
+rsync -av /home/user1 wobgalaxy02:/home/user1
+find . -path ./misc -prune -o -name '*.txt' -print
+history
+find /path ! -perm /020
+mkdir -p "$TARGET_PATH"
+readlink -f "$path"
+ln -s "../config/init"
+find / -group shadow
+find / -user pat -iname "Dateiname"
+find . -iname "WSFY321.c"
+find / -maxdepth 3 -name passwd
+find /usr/local -mtime 1
+find your/dir -prune -empty
+find /eserver6 -L
+find $HOME -name \*txt -o -name \*html -print0
+find test -empty
+find -name "query"
+find . -name "*.rb" -or -name "*.py"
+find /usr/local/games -name "*xpilot*"
+find -name '*macs'
+find /mnt/usb -name  "*.mp3" -print
+find /usr /home  /tmp -name "*.jar"
+mv /mnt/usbdisk/[^l]* /home/user/stuff/.
+chown amzadm.root  /usr/bin/aws
+ls -l /proc/self/fd/
+find jcho -name *.data
+find /home -name ".*"
+find . -mtime 1
+mv new old -b -S .old
+find . -lname '*sysdep.c'
+find /tmp /var/tmp -iname "testfile.txt"
+find src -name "*.java"
+a=$( df -H )
+find "${DIR}" -name "*.txt"
+find / -not -newer /tmp/t
+mkdir dir1
+find / -name "имя_файла"
+awk -F, 'BEGIN {OFS = ","} {gsub("-([0-9.]+)", "(" substr($3, 2) ")", $3); print}' inputfile
+find ~/ -name '*.txt'
+rsync -av /home/user1/ wobgalaxy02:/home/user1/
+find $@ -not -name ss
+pushd .
+uname -i
+ln -sfn /other/dir new_dir
+find /path/to/folder -name fileName.txt -not -path "*/ignored_directory/*"
+find / -name foo.bar -print -xdev
+chown -R root:root /var/lib/jenkins
+ssh -D1080 root@localhost -g
+tar -czf backup.tar.gz -X /path/to/exclude.txt /path/to/backup
+rename -v 's/\.JPG/\.jpeg/' *.JPG
+cat n
+path=`which oracle`
+find . -regex ".*/my.*p.$" -a -not -regex ".*test.*"
+find / -user vivek
+find / -name 'top???'
+find -name file -ls
+find . -size 1234c
+find /var/log -name "*.log" -print0
+find . -empty
+chmod 555 /home/sshtunnel/
+ssh buck@hostname
+ln -s "$dir" "$1/link"
+find . -name '*bills*' -print
+find -name *.xml
+find / -iname "filename"
+find / -perm /u+w,g+w,o+w
+cut "-d " -f2 a
+awk -F"\t" 'NF>1' file
+sudo chown bob:sftponly /home/bob/writable
+find $HOME -name 'mysong.ogg'
+find . -mtime 1
+find -nouser
+du -B1 --apparent-size /tmp/foo.txt
+mkdir -p es/LC_MESSAGES
+scp -qv $USER@$HOST:$SRC $DEST
+echo ${filename%.*}
+NAME=`basename "$FILE"`
+chown :friends myfile
+rmdir --ignore-fail-on-non-empty $newBaseDir/Data/NewDataCopy
+find /path ! -perm /g+w
+find . -maxdepth 1 -print0
+yes no
+find . -name ".aux"
+ln -nsf dir2 mylink
+find $HOME -iname '*.ogg' -o -iname '*.mp3'
+df
+find . -newer tmpfile
+find -iname "MyCProgram.c"
+basename testFile.txt.1 .1
+find -iname "query"

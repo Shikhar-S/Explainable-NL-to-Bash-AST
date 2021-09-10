@@ -1,0 +1,118 @@
+,Utility,TLDRText,ManpageText
+0,dig,dns lookup utility,dns lookup utility
+1,vim,a commandline text editor provides several modes for different kinds of text manipulation pressing i enters edit mode esc goes back to normal mode which doesnt allow regular text insertion,
+2,awk,a versatile programming language for working on files,pattern scanning and processing language
+3,more,open a file for interactive reading allowing scrolling and search in forward direction only,display files on a pagebypage basis
+4,tree,show the contents of the current directory as a tree,list contents of directories in a treelike format
+5,tmux,terminal multiplexer it allows multiple sessions with windows panes,terminal multiplexer
+6,tar,archiving utility often combined with a compression method such as gzip or bzip2,an archiving utility
+7,which,locate a program in the users path,locate a command
+8,man,format and display manual pages,display system documentation
+9,bunzip2,,a blocksorting file compressor
+10,pstree,a convenient tool to show running processes as a tree,display a tree of processes
+11,uname,print details about the current machine and the operating system running on it,return system name
+12,history,command line history,
+13,fg,run jobs in foreground,run jobs in the foreground
+14,date,set or display the system date,date and time
+15,compress,,compress data
+16,sh,bourne shell the standard command language interpreter,
+17,comm,select or reject lines common to two files both files must be sorted,select or reject lines common to two files
+18,xargs,execute a command with piped arguments coming from another command a file etc the input is treated as a single block of text and split into separate pieces on spaces tabs newlines and endoffile,construct argument lists and invoke utility
+19,grep,matches patterns in input text supports simple patterns and regular expressions,
+20,scp,secure copy copy files between hosts using secure copy protocol over ssh,secure copy remote file copy program
+21,mktemp,create a temporary file or directory,create a temporary file or directory
+22,ln,creates links to files and directories,link files
+23,su,switch shell to another user,change user id or become superuser
+24,bg,resumes jobs that have been suspended eg using ctrl  z and keeps them running in the background,run jobs in the background
+25,cp,copy files and directories,copy files
+26,md5sum,calculate md5 cryptographic checksums,compute and check md5 message digest
+27,finger,user information lookup program,user information lookup program
+28,wget,download files from the web supports http https and ftp,the noninteractive network downloader
+29,column,format standard input or file into multiple columns rows are filled before columns default separator is whitespace,columnate lists
+30,cal,prints calendar information with the current day highlighted,print calendar
+31,apropos,search in manpages for example to find a new command,search the manual page names and descriptions
+32,FALSE,returns an exit code of 1,return false value
+33,rmdir,removes a directory,remove directories
+34,cpio,copies files in and out of archives supports the following archive formats cpios custom binary old ascii new ascii crc hpux binary hpux old ascii old tar and posix1 tar,copy files to and from archives
+35,read,bash builtin for retrieving data from standard input,catenate files
+36,bzip2,a blocksorting file compressor,
+37,hostname,show or set the systems host name,
+38,tail,display the last part of a file,deliver the last part of a file
+39,crontab,schedule cron jobs to run on a time interval for the current user job definition format min hour day of month month day of week command to execute,schedule periodic background work
+40,echo,print given arguments,print arguments
+41,paste,merge lines of files,merge corresponding or subsequent lines of files
+42,dirname,calculates the parent directory of a given file or directory path,return the directory portion of a pathname
+43,sleep,delay for a specified amount of time,suspend execution for an interval
+44,jobs,bash builtin for viewing information about processes spawned by the current shell,display status of jobs in the current session
+45,yes,output something repeatedly this command is commonly used to answer yes to every prompt by install commands such as aptget,output a string repeatedly until killed
+46,ifconfig,network interface configurator,
+47,clear,clears the screen of the terminal,clear the terminal screen
+48,chgrp,change group ownership of files and directories,change the file group ownership
+49,join,join lines of two sorted files on a common field,relational database operator
+50,watch,execute a command repeatedly and monitor the output in fullscreen mode,execute a program periodically showing output fullscreen
+51,ps,information about running processes,report process status
+52,popd,remove a directory placed on the directory stack by the pushd command,
+53,nano,simple easy to use commandline text editor an enhanced free pico clone,nanos another editor an enhanced free pico clone
+54,split,split a file into pieces,split a file into pieces
+55,tac,print and concatenate files in reverse last line first,concatenate and print files in reverse
+56,bind,,bind name to socket
+57,ssh-keygen,generate ssh keys used for authentication passwordless logins and other things,authentication key generation management and conversion
+58,uniq,output the unique lines from the given input or file since it does not detect repeated lines unless they are adjacent we need to sort them first,report repeated lines in a file
+59,touch,change a file access and modification times atime mtime,set modification date of a file
+60,md5,calculate md5 cryptographic checksums,compute and check md5 message digest
+61,rename,rename multiple files note this page refers to the command from the utillinux package for the perl version see filerename or perlrename warning this command has no safeguards and will overwrite files without prompting,
+62,groups,print group memberships for a user,print the groups a user is in
+63,rsync,transfer files either to or from a remote host not between two remote hosts can transfer single files or multiple files matching a pattern,a fast versatile remote and local filecopying tool
+64,wc,count lines words or bytes,word line and byte or character count
+65,nl,a utility for numbering lines either from a file or from standard input,line numbering filter
+66,diff,compare files and directories,differential file comparator
+67,ping,send icmp echorequest packets to network hosts,send icmp echorequest packets to network hosts
+68,whoami,print the username associated with the current effective user id,print effective userid
+69,sed,edit text in a scriptable manner,stream editor
+70,shred,overwrite files to securely delete data,overwrite a file to hide its contents and optionally delete it
+71,rm,remove files or directories,remove directory entries
+72,find,find files or directories under the given directory tree recursively,find files
+73,sort,sort lines of text files,sort andor merge files
+74,w,display who is logged in and their processes,
+75,bash,bourne again shell shcompatible command line interpreter,gnu bourneagain shell
+76,zcat,print data from gzip compressed files,
+77,tee,read from standard input and write to standard output and files or commands,pipe fitting
+78,du,disk usage estimate and summarize file and directory space usage,estimate file space usage
+79,ls,list directory contents,list contents of directory
+80,pushd,place a directory on a stack so it can be accessed later see also popd to switch back to original directory,
+81,top,display dynamic realtime information about running processes,display linux processes
+82,df,gives an overview of the filesystem disk space usage,report free disk space
+83,cd,change the current working directory,change the working directory
+84,less,open a file for interactive reading allowing scrolling and search,opposite of more
+85,kill,sends a signal to a process usually related to stopping the process all signals except for sigkill and sigstop can be intercepted by the process to perform a clean exit,terminate or signal processes
+86,mount,provides access to an entire filesystem in one directory,
+87,shopt,manage bash shell options variables stored in bashopts that control behavior specific to the bash shell generic posix shell variables stored in shellopts are managed with the set command instead,
+88,info,reads documentation stored in the info format,read info documents
+89,source,execute commands from a file in the current shell,
+90,fold,wraps each line in an input file to fit a specified width and prints it to the standard output,filter for folding lines
+91,curl,transfers data from or to a server supports most protocols including http ftp and pop3,transfer a url
+92,gunzip,extract files from a gzip gz archive,compress or expand files
+93,pwd,print name of currentworking directory,return working directory name
+94,gcc,preprocess and compile c and c source files then assemble and link them together,
+95,set,display set or unset values of shell attributes and positional parameters,set or unset options and positional parameters
+96,mkdir,creates a directory,make a directory
+97,cut,cut out fields from stdin or files,cut out selected fields of each line of a file
+98,nohup,allows for a process to live when the terminal gets killed,invoke a utility immune to hangups
+99,readlink,follow symlinks and get symlink information,print resolved symbolic links or canonical file names
+100,who,display who is logged in and related data processes boot time,display who is on the system
+101,od,display file contents in octal decimal or hexadecimal format optionally display the byte offsets andor printable representation for each line,dump files in various formats
+102,head,output the first part of files,copy the first part of files
+103,ssh,secure shell is a protocol used to securely log onto remote systems it can be used for logging or executing commands on a remote server,openssh ssh client remote login program
+104,gzip,compress uncompress files with gzip compression,compress or expand files
+105,tr,translate characters run replacements based on single characters and character sets,translate characters
+106,chmod,change the access permissions of a file or directory,change the file modes
+107,file,determine file type,determine file type
+108,TRUE,returns a successful exit status code of 0 use this with the  operator to make a command always exit with 0,return true value
+109,chown,change user and group ownership of files and directories,change the file ownership
+110,cat,print and concatenate files,catenate files
+111,env,show the environment or run a program in a modified environment,set the environment for command invocation
+112,mv,move or rename files and directories,move files
+113,basename,remove leading directory portions from a path,strip file name affixes
+114,seq,output a sequence of numbers to stdout,print sequences of numbers
+115,rev,reverse a line of text,reverse lines characterwise
+116,zless,view compressed files,file perusal filter for crt viewing of compressed text

@@ -1,0 +1,2561 @@
+diff -up fastcgi_params fastcgi.conf
+find . -name mmm -prune -o -print
+find /usr -perm 0777 -print
+find file1 -prune -newer file2
+cp --parents src/prog.js images/icon.jpg /tmp/package
+hostname=`hostname -s`
+date -ud@0
+find /path/to/search -user owner
+mv /mnt/usbdisk/[^l]* /home/user/stuff/.
+cd "/cygdrive/c/Program Files (x86)"
+shred -v -n 0 -z -u /path/to/your/file #overwriting with zeroes and remove the file
+find . -path './bar*' -print
+find / -name *.mp3
+find / -size 15M
+find / -group shadow
+read -s foobar
+source "$file"
+rmdir latest
+find / -atime 50
+full_f="$(which f)"
+find /some/dir/ -maxdepth 0 -empty -exec echo "huzzah" \;
+find /usr -group staff
+find . -name "*.rb"
+find /usr -name tkConfig.sh
+sudo mv phantomjs-1.8.1-linux-x86_64.tar.bz2 /usr/local/share/.
+find . -empty
+tar czfP backup.tar.gz /path/to/catalog
+sort -n -k 2
+find . -iregex ".*packet.*"
+find /opt -mtime 20
+mkdir foo bar
+find . -inum 1316256
+split -n 1000 /usr/bin/firefox
+sort -k1,1 -k2,2 -t';' --stable --unique some_data
+find -L -samefile path/to/file
+find -name "MyCProgram.c"
+ssh -D1080 root@localhost -g
+grep -r "searched-string" .
+find /usr ! -newer /FirstFile -print
+uname -n
+a=$( df -H )
+scp -C file remote:
+find /home -group test
+hostname
+ln -fs /etc/configuration/file.conf /etc/file.conf
+find . -name “*.old” -delete
+find -name "*.js" -not -path "./directory/*"
+sort -k1,1 -k2,2 -t';' --stable some_data
+gzip
+find -iname september
+find . -name "*js" -o -name "*rb"
+find  / -iname findcommandexamples.txt
+chown -R andrewr:andrewr *
+find -name '*.php'
+sudo mv $PHANTOM_JS /usr/local/share
+find ./ -regex "./cmn-.\.flac"
+find . -mtime 0
+sudo chown -R :laravel ./storage
+basename "some/unknown/amount/of/sub/folder/file.txt"
+find . -newer /bin/sh
+mkdir -p ~/foo/bar/baz ~/foo/bar/bif ~/foo/boo/bang
+find "${S}/bundled-libs" \! -name 'libbass.so' -delete
+HOSTNAME=$(hostname) make -e
+tail -n 1000 /var/spool/cron/*
+find . -name 'kt[0-9] '
+chown user3:user3 -R subdir3
+df -H --total /
+seq $1
+find . -name "process.txt"
+date -d @1267619929
+ssh -M -S my-ctrl-socket -fnNT -L 50000:localhost:3306 jm@sampledomain.com
+grep -v "#" -R  /var/spool/cron/tabs
+paste -s -d' \n' input.txt
+rsync -rvv /path/to/data/myappdata/*.txt user@host:/remote/path/to/data/myappdata/
+pstree -A -s $$
+mkdir ~/practice
+find  .  -path  './src/emacs'  -prune  -o -print
+readlink -f  /path/here/..
+watch -n 0.1
+find . -not -iwholename '*/.git/*'
+find .
+which c++
+find . -name '*.tif ' -print
+chown root:root script.sh
+find . -iname "*.mov" -follow
+find / -mtime 1
+find ~ -iname "screen*"
+find . -name "*.java"
+find / -name "testfile.txt"
+mv blah1 blah1-new
+cp --parents src/prog.js images/icon.jpg /tmp/package
+find . -mtime 7 -name "*.html" -print
+nl -v1000001 file
+find / -perm /u=s
+find . -name "*.csv" -print
+ssh -N -L 2222:remote.example.com:22 bridge.example.com&
+mount
+find -maxdepth 2 -name file1
+find . -perm /a=x
+read -s password
+find -name file1
+find / -name filename
+cp -f "$project_dir"/iTunesArtwork Payload/iTunesArtwork
+find / -iname 'process.txt' -print
+mkdir 3/foo 3/bar 3/baz
+sort -nrk 2,2
+df -i
+mkdir -p es/LC_MESSAGES
+abspath=$(readlink -e $path)
+awk -F, 'BEGIN {OFS = ","} {gsub("-([0-9.]+)", "(" substr($3, 2) ")", $3); print}' inputfile
+find -daystart -mtime 1
+find . -perm a=rwx,g-w,o-w
+pstree -p -s PID
+find -name "filename"
+find . -name myletter.doc -print
+read -n 1 -r
+find /public/html/cosi -name "wiki.phtml"
+chmod 755 /folder -R
+find ./ -name '*.epub' -o -name '*.mobi' -o -name '*.chm' -o -name '*.rtf' -o -name '*.lit' -o -name '*.djvu'
+ls -l /bin/echo
+find -newer foo.txt
+sed '/start/,+4d'
+find ./ -regex "./cmn-.\.flac"
+md5sum file*.txt
+mkdir new_dir
+df --total
+sudo su -l oracle
+find / [опция_поиска] [значение] 	[опция_действия]
+cd
+info gcc "option index"
+chown -R andrewr:andrewr *
+find ~/src -newer main.css
+find /eserver6/share/system/config/cluster -name "orm.properties"
+sort -u -o file !#$
+find /Users/Me/Desktop -readable
+r="$(uname -r)"
+tree -af
+find / -perm /g=s
+find /usr/local/fonts -user warwick
+find /usr/share/doc -name README\*
+rsync -aHvz /path/to/sfolder/ name@remote.server:/path/to/remote/dfolder
+mkdir /etc/cron.5minute
+cat my_script.py
+launcherfile=$(mktemp -p "$appdir" "$template")
+ssh -F vagrant-ssh default
+chown -R tomcat6 webapps temp logs work conf
+history -s "$line"
+comm -23 "File 1" "File 2"
+mount /windows
+find /usr/ -lname *javaplugin*
+du -h your_directory
+find /path ! -perm /020
+mv svnlog.py svnlog
+find . -name '.?*' -prune
+groups                                        //take a look at the groups and see
+chown -R your_user_name.your_user_name 775 /home/el/svnworkspace
+diff PATH1/ PATH2/ -rq -X file1
+ls -1 /tmp/hashmap.$1
+pushd "${line/#\~/$HOME}";
+find . -newer /bin/sh
+chown -R antoniod:antoniod /opt/antoniod/
+groups a b c d
+cd "${dirs[-1]}"
+find / \! -name "*.c" -print
+mkdir testExpress
+find /home -name ".*"
+history -c
+find -mindepth 4 -name file
+find . -name *disc*
+find . -newer poop
+find . -name "*.rb" -or -name "*.py"
+find . -name f* -print
+sudo find / -name mysql -print
+tee foobar.txt
+find . -name "*Linkin Park"
+read -s -N 1 SELECT
+split -n 1000000 /etc/gconf/schemas/gnome-terminal.schemas
+find /volume1/uploads -name "*.mkv" -exec rename 's/\.mkv$/.avi/' \{\} \;
+find . -perm 664
+find ~/Books -name Waldo
+ping -c 1 127.0.0.1 #ping your adress once
+chown amzadm.root  /usr/bin/aws
+RM=`which rm`
+column -s: -t
+find ./ -name "somename.txt"
+find $HOME  -mtime 0
+comm -12 file1 file2
+cp -R SRCFOLDER DESTFOLDER/
+ln -sf new_destination linkname
+find . -name [ab]* -print
+find / -maxdepth 3  -name "*log"
+find /etc/. ! -name /etc/.
+find /usr/local/doc -name '*.texi'
+split -n2 infile
+find images -name "articles.jpg"
+find . -name "*.ksh" -prune
+find . -newer Nov -ls
+bzip2 -kv */*/*/*/*/*/*
+find / -readable
+read -n 1 -p "Is this a good question (y/n)? " answer
+read -e -p "Enter the path to the file: " -i "/usr/local/etc/" FILEPATH
+find . -name testfile.txt
+find / -name *.mp3
+find /usr/share/man/ -regex .*/grep*
+find /some/directory -user joebob -print
+find . -iname foo
+find . -name '*.java' -newer build.xml -print
+find /home -not -group test
+mkdir saxon_docs
+sort -nrk 2,2 file.dat
+find / -perm 2644
+which python2.7
+tree -p -u -g -f
+find /path -perm /ugo+x
+find / -name httpd.conf
+rm -r $TMPDIR
+$ ls
+find / -perm 1551
+read -r a
+read line
+ssh-keygen -Hf ~/.ssh/known_hosts
+find . -name \*.html
+find /volume1/uploads -name "*.mkv" -exec mv \{\} \{\}.avi \;
+find . -name ‘*ITM*’
+set -e
+dir=$(mktemp -d)
+find /home/kos -name *.tmp -print
+diff -rq dir1 dir2
+find / -print
+man find
+find /work -name 'memo*' -user ann -print
+ln -s "../config/environments"
+rm -r classes
+find path/ -name "*.log"
+find $parentdir -name $tofind*
+find /path -perm /ugo+x
+find . -regex ".*\\.rb$"
+find . -name *disc*
+find -name file -exec echo '-exec is an action so an implicit -print is not applied' \;
+find /usr -name "*.c"
+cd -L ..
+find / -iname top
+ping -c 2 www.google.com
+scp -v /my_folder/my_file.xml user@server_b:/my_new_folder/
+find / -newer /tmp/checkpoint
+myvariable=$(whoami)
+find . -name "*.txt"
+find /home -perm /u=s
+sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/ /g'
+find $HOME -name 'mysong.ogg'
+sudo chown -R xxx /Users/xxx/Library/Developer/Xcode/Templates
+chown user:group file ...
+tr -cs '[:space:]'
+find . -print
+find . -name '*.js'
+find -name "query"
+find . -name *.o -perm 664 -print
+find / -executable
+find /nas/projects -name "*.h"
+diff dir1.txt dir2.txt
+chgrp -R GROUP /path/to/repo
+file=`basename "$1"`
+find $HOME -name 'mysong.ogg'
+history
+read -p "command : " input_cmd
+find jcho -name *.data
+ping ${ip} -I eth9 -c 1
+ls -l /proc/self/fd/
+rmdir --ignore-fail-on-non-empty newBaseDir/Data/NewDataCopy
+split -l 20 $FILENAME xyz
+find .
+find . ! -name "a.txt" -print
+split -l 100 date.csv
+find / -name foo.bar -print -xdev
+find . -size 0k
+find . -name '*.pdf' -print
+gzip -l compressed.tar.gz
+find /home ! -name "*.txt"
+find /usr -maxdepth 4 -name document -print
+mkdir ~/.npm-global
+sudo chown nobody /var/www/html/mysite/tmp_file_upload/
+find . ! -name "$controlchars"
+mkdir dir1
+fold -w 10
+find . -name foo.rb
+find sourceDir -mindepth 1 -maxdepth 1
+sudo chown root process
+chown -R :daemon /tmp/php_session
+f=`mktemp -p .`
+find ./ -name "*TextForRename*"
+founddata=`find . -name "filename including space" -print0`
+basename -- $0
+diff -y a b
+find . — name "[A‑Z]*" — print
+cat n
+find . -name "file.ext" -execdir pwd ';'
+find . -name '* *'
+chgrp -R fancyhomepage /home/secondacc/public_html/community/
+read -p "Are you sure? " -n 1 -r
+join -1 2 -2 1 text.txt codes.txt
+find / -newer ttt -user wnj -print
+find ~ -name "*.txt" -print
+sudo chmod 755 .git/hooks/pre-commit
+find -regex "$rx"
+find -empty
+find . -name "orm.properties"
+od -c oldfile
+sed -i.bak '/pattern to match/d' ./infile
+find / -perm /u+w,g+w,o+w
+tar -I pbzip2 -cf OUTPUT_FILE.tar.bz2 paths_to_archive
+find -mindepth 2 -maxdepth 3 -name file
+sudo chmod 755 -R /whatever/your/directory/is
+find . -name file1 -or -name file9
+find -name '*~' -delete
+tree -Csu
+chown -R root:root /var/log/jenkins
+mv tobecopied/tobeexcluded .
+find . -name "*.bash"
+cp /dev/null emptyfile.c
+ln -s /lib/libc.so.6 /lib/libc.so.0
+find / -atime 50
+find / -name "dir-name-here"
+find . -name *.bar -maxdepth 2 -print
+find . -name "filename including space"
+find -name "*pattern*"
+pstree -a pid
+find / -name "*.conf"
+find /etc -newer /etc/motd
+df -H --total /
+find foo -path foo/bar -print
+ls -d -1 $PWD/**
+find / -nogroup
+find . -regex ".*/(test)[0-9][0-9]\.txt"
+man find
+read -e
+find / /usr -xdev -name document -print
+ls -al file.ext
+find . -wholename './src/emacs' -prune -print -o -print
+find / -nouser -print
+find -daystart   -atime 0
+history -a
+chown root:root script.sh
+which cc
+find ~ -perm 777
+rename 's/\.html$/\.txt/' *.html
+find . -name "*.bam"
+yes no
+split -l ${2:-10000} -d -a 6 "$1" "${tdir}/x"
+find . -gid 1003
+find / -perm /u=s
+rsync -avR foo/bar/baz.c remote:/tmp/
+rsync -aHvz /path/to/sfolder name@remote.server:/path/to/remote/dfolder
+find dir -depth
+find /path -name '*.foo'
+find / -name "*fink*" -print
+find . -not -name "*.pl" -not -name "*.sh" -not -name "*.py"
+find . -inum 968746 -print
+find / -name foo
+sed ':a;N;$!ba;s/\n/ /g' file
+grep [option] "text string to search” directory-path
+comm -23 file1 file2
+find . -name .snapshot -prune -o -name '*.foo' -print
+find . -print
+find $1 -name '* *'
+find ~/Library/ -iname "com.apple.syncedpreferences.plist"
+CAT=`which cat`
+find -name "*text"
+mkdir aaa/bbb
+read -s -p "Password: " password
+find . -name "*.ext"
+target_PWD=$(readlink -f .)
+sudo chown root:root testfile.txt
+find . -name "*.mov"
+df -Ph
+shred -u $FILE
+find .
+find /dir/to/search -path '*/.*' -ls
+find . -name "*.csv"
+find ~ -name 'arrow*.xbm'
+chown -R :lighttpd /var/lib/php/session
+pstree -s $$
+ln -sf $keyname     id_rsa
+find /eserver6 -name "orm.properties"
+finalName=$(dirname ${path#*/})
+find . -maxdepth 2
+myVar=$(tee)
+sudo mkdir /var/svn
+find . -name "*.swp"
+find /myfiles -mtime 2
+find . -name  \*.java
+chown -- "$user:$group" "$file"
+jobs -l
+pstree -p
+find ~ -name 'xx*' -and -not -name 'xxx'
+man find
+sed -i "s/\\\\\n//g" filename
+rsync -avR $i /iscsi;
+sort -n
+find /usr/share/doc -name README
+comm -23 a.txt b.txt
+groups
+find . -name '*tests*' -print -exec false \;
+jobs -l
+bind '"e":self-insert'
+find /root -name FindCommandExamples.txt
+md5 -s 'string to be hashed'
+curl http://example.com/
+find / -newer /tmp/t
+find / -perm /g=s
+find /dir -regex '.*2015.*\(album.*\|picture.*\)'
+find . -path ./misc -prune -o -name '*.txt' -print
+mkdir -p a/b/c
+find / -newerct '1 minute ago' -print
+mkdir -pv /tmp/boostinst
+find /usr -newer /tmp/stamp$$
+find . -name "*.NEF" -exec basename \{\} .NEF \;
+find . -name onlyme.sh -execdir pwd \;
+find /apps -group accts -print
+join -v1 success.txt fail.txt
+find . -size 300M
+comm -1 -3 file1 file2
+find /path -nouser -or -nogroup
+split -n 100000 /usr/bin/gcc
+sudo chown -R :laravel ./bootstrap/cache
+ln -sfvn source target
+find . -name .svn -delete
+rm -d symlink
+seq -s' ' $start $end
+cp -n
+rsync $OPTS $FIND $BACKUPDIR
+find /myfiles -name '*blue*'
+find . -name \*.c -print
+split -n 1000 /usr/bin/firefox
+find ! -path "dir1" ! -path "dir2" -name "*foo*"
+rmdir edi edw
+cp -n src dest
+find . -empty -delete -print
+rsync -ravz /source/backup /destination
+find . -ipath '*sitesearch*' -ipath '*demo*'
+df -h /
+find /path -perm ugo+rwx
+cd  /path/to/pdf
+cal 2 1900
+man find
+rsync -Prt --size-only original_dir copy_dir
+TMPDIR=$(mktemp -p /tmp -d .daemonXXXXXXX)
+rename 's/(.*)$/new.$1/' original.filename
+find .  -path '*f'
+sed -i bak -e s/STRING_TO_REPLACE/REPLACE_WITH/g index.html
+split -n2 infile
+split -b 10 input.txt /tmp/split-file
+read -e -p '> ' $1
+find . -regex '.*myfile[0-9][0-9]?'
+diff -ENwbur repos1/ repos2/
+find / -name "oldStuff*.txt" -delete
+find . -name "*foo"
+sudo chown root file.sh
+find /home/bozo/projects -mtime 1
+find -user jzb
+find ~ -name myletter.doc -print
+split -a 5 $file
+find -mindepth 2 -maxdepth 3 -name file
+find . -iname "WSFY321.c"
+basename /path/to/dir/filename.txt .txt
+ssh -i ~/.ssh/gitkey_rsa "$@"
+find / -newerct '1 minute ago' -print
+mv /path/subfolder/* /path/
+find /users/tom -name "*.pl" -name "*.pm"
+groups el                                     //see that el is part of www-data
+find . -path ./dir1\*  -prune -o -print
+find . -name "*.java" -exec sed -i '' s/foo/bar/g \;
+ssh -f user@gateway -p 24222 -L 3307:1.2.3.4:3306 -N
+find downloads  -iname "*.gif"
+TMPDIR=$(mktemp -d)
+ln -s "$source" -t ~/newlinks
+find . -size 24000c
+find /etc -name '*.conf'
+cat -v /dev/urandom
+find -iname "*.c"
+mkdir -p foo
+cp -Rvn /source/path/* /destination/path/
+find . ! -size 0k
+chmod g+w * ...*
+rsync -av . server2::sharename/B
+find / -perm /g=s
+find foo bar baz -name "*.rb"
+find . -path "./sr*sc"
+find "your/dir" -prune -empty
+find .
+find / -newerct '1 minute ago' -print
+which bzip2
+chown root:specialusers dir1
+find /usr/share -name README
+sudo chown -Rf www-data *
+find /home -name "*.txt" -size 100k
+find -name test2
+find /home/user/Desktop -name '*.bmp' -o -name '*.txt'
+find / -newer myfile
+tmpfile=$(mktemp)
+find . -mtime 7 -name "*.html" -print
+bzip2 -kv */*/*/*/*/*/*/*
+find . -name \*.pdf -print
+head -c 100 file
+find /home -name tecmint.txt
+tar -czvf my_directory.tar.gz -C my_directory .
+find wordpress -maxdepth 1 -name '*js'
+find . -iname a\*.html
+scp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/
+mkdir subdirectory
+wc -l /dir/file.txt
+mkdir a b c d e
+find / -maxdepth 2 -name testfile.txt
+find . -name ".DS_STORE"
+find / -nouser
+find $STARTDIR -name '*.ps' -print
+find -name "$something"
+rename -f 'y/A-Z/a-z/' *
+mkdir $dir
+gzip -k *cache.html
+man find
+diff -dbU0 a b
+find . -regex '\./[a-f0-9\-]\{36\}\.jpg'
+find . -wholename './src/emacs' -prune , -print
+gzip -d --force * /etc
+find -E . -iregex '.*/(EA|FS)_.*'
+ping -b 10.10.0.255
+find / -name "*.php"
+scp -r prod:/path/foo /home/user/Desktop
+gunzip -l file.zip
+watch -n10 cat /tmp/iostat.running
+rm /var/www/html/**/_* /var/www/html/**/.DS_Store
+find / -name "*.conf"
+find /home -perm /a=x
+history -r "$HISTFILE"     #Alternative: exec bash
+mkdir -p tmp/real_dir1 tmp/real_dir2
+find /home/family/Music -name '*.m4a' -print0
+find $FULFILLMENT -ls
+bind -x '"\eW":"who"'
+cd /some/where/long
+find / -name '*python*'
+find /usr/share/doc -name '[Rr][Ee][Aa][Dd][Mm][Ee]*'
+mkdir destdir
+find \! -name "query_to_avoid"
+find /etc   ! -name /etc
+wc -l file
+find ~/ -name '*.txt'
+tempd=`mktemp -d`
+tee
+hnd=$(hostname -f)
+mkdir ~/practice
+find /work -user olivier -print
+join -1 2 -2 1 -t, BigFile.csv LittleFile.csv
+diff -arq folder1 folder2
+find .
+find  / -iname findcommandexamples.txt
+split -a4 -d -l100000 hugefile.txt part.
+gunzip *.gz
+set -e
+curl http://127.0.0.1:8000 -o index.html
+find -daystart -mtime 2
+find --help
+find / -perm 777 -iname "filename"
+history 10
+read REPLY\?"This is the question I want to ask?"
+find . -iwholename "*ACK*1"
+find / -group group2
+find / -user vivek
+which -a python
+find / -name .profile -print
+find -name "*testfile*"
+chgrp -R shared_group /git/our_repos
+find / -perm 1551
+find . -name \*.exe -o -name \*.dll -o -print
+bunzip2 file.bz2
+GZIP="$(which gzip)"
+shred -uzn 35 filename
+find "/tmp/1" -iname "*.txt"
+split -l 20 file.txt new
+find /home/bozo/projects -mtime 1
+cd -P "$dir1"
+rsync -R src/prog.js images/icon.jpg /tmp/package
+tr -d ' '
+mv new old -b
+read -e -i "yes" -p "Enter your choice: " choice
+find /usr /home  /tmp -name "*.jar"
+mv * /tmp/blah/
+find -perm 777
+find ./ -executable
+sed -n "s/^$//;t;p;"
+find . -size 126M
+find . -mtime 1
+find . -path ./src/emacs -prune -o -print
+find . -user daniel
+find / -name "*.php"
+dirname "/path/to/vm.vmwarevm/vm.vmx"
+find / -path /proc -prune -o -nouser -o -nogroup
+shred -v -n 1 /path/to/your/file #overwriting with random data
+uname -i
+chown nginx:nginx /your/directory/to/fuel/ -R
+cp -rs /mnt/usr/lib /usr/
+find . -name "sample*_1.txt"
+find A \! -path "A/a/*" -a \! -path "A/a"
+$ find other -maxdepth 1
+sudo chown -R $USER ~/tmp
+mkdir foo
+uname -srvm
+find . -name "*,txt"
+sudo chown -R  $USER:$GROUP /var/lib/cassandra
+sudo chown root:wheel com.xxxx.adbind.plist
+find /dir/to/search/ -name ".*" -ls
+find .
+awk 1 ORS=' ' file
+find -name "*.cpp"
+find . -path ./ignored_directory -prune -o -name fileName.txt -print
+tail -r myfile.txt
+groups user
+mkdir -p dir
+find -iname pattern
+find /usr/share/man/ -regex grep.*
+cp -R t1/ t2
+find / -name "*.old" -delete
+TMPPS_PREFIX=$(mktemp "${TMPDIR:-/tmp/}${tempname}.XXXXXX")
+mktemp
+find -name "text"
+find . name *foo
+sudo chown el my_test_expect.exp
+find / -name composer.json
+mv tobecopied/tobeexclude tobeexclude;
+bzip2 *
+cd '/cygdrive/c/Program Files (x86)/$dollarsign'
+find . -xdev -print0
+fold -w30 -s longline
+find / -newerct '1 minute ago' -print
+find . -name 'test*'
+find / -perm 644
+tree -I '3rd*'
+history -r file.txt
+sudo chown -R ec2-user:apache /vol/html
+bind '"\eY": "\e2\e."'
+find -E . -regex ".*ext1|.*ext2|.*ext3"
+sort -u FILE
+find $HOME -iname '*.ogg' -o -iname '*.mp3'
+find . -mtime 0 -print
+tree -L 2
+find . -name "*bsd*" -print
+OS=$(uname -s)
+read -n1 -r -p "Press any key to continue..." key
+su -
+find /usr/share/man/ -regex .*grep*
+find /home -nouser -print
+find src/js -name '*.js'
+find /path -nouser -or -nogroup
+find /opt -atime 20
+find -mindepth 1 -maxdepth 1
+SELF=`readlink /proc/$$/fd/255`
+tr -sc '[:punct:]' '\n'
+find . -name "*.txt"
+find / -iname TeSt123.txt
+find . -name ".*\.i"
+find . -name "*album*" -a -name "*vacations*" -a -not -name "*2015*"
+find . -name "*.bak" -delete
+find . -name "*.txt" -print
+head -n1 $bigfile
+mkdir /cpuset
+set -f
+find . -perm 777  -mtime 0 -print
+ls /home/dreftymac/*
+tar -zxvf $1
+read -p " Again? Y/n " i
+find Symfony -name '*config*';
+split --help
+find ~/ [опция_поиска] [значение] [опция_действия]
+rsync -avh /home/abc/* /mnt/windowsabc
+find /var/www
+man find
+find .  ! -regex ".*[/]\.svn[/]?.*"
+df -h /
+find / -name 'my*'
+chown $JBOSS_USER $JBOSS_CONSOLE_LOG
+tar -N '2014-02-01 18:00:00' -jcvf archive.tar.bz2 files
+apropos -r '.*'
+find /root/of/where/files/are -name *company*
+find . -name '*1234.56789*'
+find ./ -inum 1316256 -delete
+sudo find . -print0
+rsync_src=`mktemp -d -p $mnt_dir`
+find .
+find -name file -fprint file
+find /usr /bin /sbin /opt -name sar
+find . -iname "file*"
+find . -name file_name
+read -p "Are you alright? (y/n) " RESP
+which programname
+find /home/username/ -name "*.err"
+find / \! -name "*.c" -print
+abspath=$(readlink -f $path)
+rm -f *.bak *~
+find /users/tom -name "*.pl"
+find . -path './media' -prune -o -path './images' -prune -o -path './backups' -prune -o -print
+ln -s "$file"
+find /path/to/directory/folder{?,[1-4]?,50} -name '*.txt'
+find / -name 'top???'
+gzip -d file.gz
+find . -size 100M
+sudo ln --symbolic --verbose --force "$pluginpath" "$pdir"
+fg 1
+kill $!
+find . -name “*.pdf” -print
+find . -name *.pdf
+chown -v root:root /path/to/yourapp
+find . -print
+top
+find . -name bad -empty -delete
+find / -mindepth 3  -name "*log"
+du -sh *
+chgrp btsync /etc/btsync/[prefered conf name].conf
+find ./ -newer start.txt -and ! -newer end.txt
+find . -cmin $minutes -print
+find --help
+readlink -m FILE
+mkdir foo
+full_backup_dir="`find . -depth -print0`"
+diff -ENwbur repos1/ repos2/
+find /usr -newermt "Feb 1"
+kill -0 $PID
+find /home/user/ -cmin 10 -print
+find /var -regex '.*/tmp/.*[0-9]*.file'
+mkdir aaa
+ssh -i keyfile.rsa -T -N -L 16379:localhost:6379 someuser@somehost
+find / -user root -name FindCommandExamples.txt
+find /myfiles -size 5
+rsync --recursive emptydir/ destination/newdir
+find /usr -iname centos
+split -l9 your_file
+find . -name "filename" -and -not -path "*/myfolder/filename" -delete
+find -name "*.mkv"
+find . -name "*.bam"
+awk 'NR==16224, NR==16482' file
+sort -o $file $file
+find . -mindepth 2
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/
+tar -xvzf passwd.tar.gz
+find . -name "*.java"
+tar -C my_dir -zcvf my_dir.tar.gz .[^.]* ..?* *
+find /usr/share/doc -name README
+find . -name *.less
+find / -group root
+find . ! -user john
+mkdir backup
+find ~ -iname '*.tex'
+find . -name FOLDER1 -prune -o -name filename -print
+tree -p
+mkdir /tmp/googleTestMock
+find /nfs/office -name .user.log -print
+find . -name a\*.html
+find . -depth -name *.zip
+apropos
+find .  -perm 775
+find ~ -name *.txt
+find . -mtime 1
+ls -l -- "$dir/$file"
+chown -v root "$file"
+find  / -name '[a-c]*'
+find / -name autoload.php
+find / -path /proc -prune -o -nouser -o -nogroup
+find "$directory" -perm "$permissions"
+diff -qr dir1 dir2
+split -b 1M -d  file.txt file
+find /home -user exampleuser -mtime 7 -iname ".db"
+mkdir -p path2/{a..z}
+more YourFile.txt
+rm -r bin/node bin/node-waf include/node lib/node lib/pkgconfig/nodejs.pc share/man/man1/node.1
+mv file0001.txt 1.txt
+mkdir saxon_docs
+find . -mmin 30
+find /tmp /var/tmp -iname "testfile.txt"
+read -rsp $'Press any key to continue...\n' -n 1 key
+find /etc -name *fstab*
+find . -lname '*test*'
+me=`basename "$0"`
+diff  --brief --recursive dir1/ dir2/
+sort -o file1.txt file1.txt
+sudo ln -s /usr/lib/jvm/java-7-oracle /usr/lib/jvm/default-java
+find . -not -name "*.pl"
+find / -perm /a+w
+ln -sfn /other/dir new_dir
+df --total
+find . -newer file
+chown -R your_user_name.your_user_name 775 /workspace
+find . -name "*~" -delete
+find . -iname foo
+tar -zcvf compressFileName.tar.gz folderToCompress
+rev file
+find . -regex ".*/my.*p.$"
+find . -depth -path './.*' -prune -o -print
+find . -nouser
+find ~ -name readme.txt
+find -maxdepth 2 -name file1
+grep "class foo" **/*.c
+find / -name httpd.conf
+gzip -l archive.tar.gz
+find / -name "*.jpg" -print
+crontab filename
+find $HOME -name ".*" -ls
+find /usr -newermt "Feb 1"
+find ~ -atime 100
+mkdir /etc/cron.5minute
+find / -name file1
+find -name "*.js" -not -path "./directory/*"
+find . -name vmware-*.log -delete
+find file -chour +1 -exit 0 -o -exit 1
+chown root:specialusers dir1
+find foo -path /tmp/foo/bar -print
+find .
+find . -name '*.txt' -print -o -name '*.html'
+dig +short -x 173.194.33.71
+var="$(find . -name 'gen*.bt2')"
+find /tmp -user me -ls
+find ~ -name "*.txt" — print -o -name ".*" — print
+sudo mount -a
+gzip -l $i
+find / -group staff -print
+find . -name *.php -or -path "./vendor" -prune -or -path "./app/cache" -prune
+find / -nouser -o  -nogroup
+find / -name photo.jpg
+find / -user user1
+read -d'' -s -n1
+find /usr -newer /tmp/stamp$$
+ssh -X whoever@whatever.com
+find . -name something -print -quit
+sed -i.bak "s#https.*\.com#$pub_url#g" MyHTMLFile.html
+mkdir /etc/cron.minute
+du -B1 --apparent-size /tmp/foo.txt
+find . -iname foo
+find . -perm /u+w,g+w
+find / -mtime 50
+find test -name ".DS_Store" -delete
+find /etc -newer /var/log/backup.timestamp -print
+date -d tomorrow+2days-10minutes
+OS=`uname -s`
+split -a 5 $file
+find ./ -path ./beta/* -prune -o -iname example.com -print
+find ~/Library -name '* *'
+find ./ -follow -lname "*"
+sed -i '/pattern/d' filename
+find . -name '*.text' -exec $SHELL -c '[ ! -f ${1%.*} ]' $SHELL '{}' ';' -print
+find . -name "*.txt"
+ssh -p 4444 localhost
+find . -name tecmint.txt
+find . -path ./dir1\*  -o -print
+find ~ -name "*.txt" — print
+find /tmp/a1
+ln -s .bashrc .bash_profile
+find / -name vimrc
+find . -name '1US*'
+find -mindepth 2 -maxdepth 2
+find . -name "*[1k]*"
+ifconfig eth0 down
+find . type -f -atime 2
+find . -maxdepth 1 -empty
+chown amzadm.root  /usr/bin/aws
+comm abc def
+find . -mtime 1
+find /home -iname "*.txt"
+find . -perm 777 -print
+pstree -apl
+find /etc/ -user root -mtime 1
+cut -d ' ' -f 2
+touch -t 200510071138 old_file.dat
+mv wordpress/.* .
+find /usr/local/games -name "*xpilot*"
+readlink -ev mypathname
+join -t $'\t' file1 file2
+ssh "$1" -l pete
+find $some_directory '.*' -delete
+find ~ -empty
+find /usr/local/games -name "*xpilot*"
+find . -exec echo -n '"{}" ' \;
+find . -name f* -print
+find /etc/ -user root -mtime 1
+find . -iname '*.jar'
+rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/npm*
+basename -a "${alpha[@]}"
+find $FOLDER -name ".*"
+bind '"\e[24~":"foobar"'
+info bash 'Basic Shell Features' 'Shell Expansions' 'Filename Expansion' 'Pattern Matching'
+read -rn1
+find /usr/share/doc -name "copyright"
+find /home -name *.txt
+join -t, in1 in2
+find /path -name file_name
+find . ! -name "*photo*"
+zcat file.gz
+value=$(uname -r)
+split -l20 ADDRESSS_FILE temp_file_
+rsync -rvv --recursive /path/to/data/myappdata user@host:/remote/path/to/data/newdirname
+history -n
+find . -size 0k
+find . -name '*.js' -\! -name 'glob-for-excluded-dir' -prune
+find ./ -path ./beta/* -prune -o -iname example.com -print
+ifconfig eth0:fakenfs 192.0.2.55 netmask 255.255.255.255
+find / -user roger -print
+man find
+bg %
+find /home/bozo/projects -mtime 1
+chgrp groupb myprog
+find / -nouser -exec rm {}\;
+find ./ -regex '.*\..*'
+find /nas/projects/mgmt/scripts/perl -mtime 1 -daystart -iname "*.pl"
+which rails
+mv "${myargs[@]}"
+find test
+find / -perm /u=r
+find / -name "*conf" -mtime 7
+split -l20 ADDRESSS_FILE temp_file_
+pstree -s $ID
+find . -name "*.txt" -delete
+find / -name vimrc
+find . -name .git  -prune -o -name file  -print
+cat numbers.txt
+find . -maxdepth 1 -empty
+sleep 10
+hostname -I
+find test -empty
+find /home -user tecmint
+dig -x 127.0.0.1
+find ./ -newermt 2014-08-25 ! -newermt 2014-08-26 -print
+find foo -path /tmp/foo/bar -print
+find lpi104-6 research/lpi104-6 -lname "*file1"
+column -t -s '' list-of-entries.txt
+a=$( df -H )
+find . -empty -ok rm {}\;
+mv {,new.}original.filename
+hostname  -I
+find . -name "*.sh"
+tmux
+find . -name photoA.jpg photoB.jpg photoC.jpg
+a=$(false)
+rsync -avzru --delete-excluded server:/media/10001/music/ /media/Incoming/music/
+sudo ln -s -f "/usr/local/bin/findpdftext" "/usr/local/bin/fpt"
+find -name file -delete
+find . -name pro\*
+ping -w 1 $c
+find . -name 'foo.cpp' '!' -path '.svn'
+OUTPUT="$(ls -1)"
+find -L /myfiles
+find . -name “*.jpg”
+jobs
+cp -r dir1/ ~/Pictures/
+md5sum main.cpp*
+readlink -f PATH
+find -empty
+scp -v user@remotehost:/location/KMST_DataFile_*.kms
+mkdir --parents ./es_MX.utf8/LC_MESSAGES
+find -name '*.p[lm]'
+find xargstest/ -name 'file??'
+find .
+cp -Rp "$appname.app" Payload/
+full_backup_dir=$(find . -depth '(' -wholename './.*' ')' -prune -o -print)
+find . -not -name "*.exe" -not -name "*.dll"
+find . -exec $0 {} +
+find -mindepth num -name query
+watch -d ls -l
+touch -a UEDP0{1..5}_20120821.csv
+read -p "$1 ([y]es or [N]o): "
+find . \! -name BBB -print
+find . -print
+read -e -p "Do that? [Y,n]" -i Y input
+find / -executable
+read -s -p "Enter your password: " passwd
+mkdir -p directory{1..3}/subdirectory{1..3}/subsubdirectory{1..2}
+ssh -L 4444:raptor.lan:22 genja.org
+path=$(basename $path)
+whoami=$(whoami)
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+find -name "bar" -execdir touch foo \;
+basename /usr/local/svn/repos/example
+find /myfiles -mtime 2
+find / -name "*.log"
+find . -name "*.pl" -ls
+cut "-d " -f2 a
+find /home/user1 -name "*.bin"
+pstree -p user
+read -p "Are you sure you want to continue? <y/N> " prompt
+sudo chown -R $USER ~/tmp
+rsync -az --delete /mnt/data/ /media/WD_Disk_1/current_working_data/;
+find . -name PERSONAL -prune -o -print
+find -name file -ok echo '-ok is an action so an implicit -print is not applied' \;
+tree
+chgrp pub public
+rm junk1 junk2 junk3
+find /usr -name date
+ln $file /tmp/allfiles
+grep -r -l "foo" .
+ln -s   /var/cache/apt/archives/bash_4.3-14ubuntu1_amd64.deb foo
+find . -name "*bsd*" -print
+which gradle
+yes
+find / -user user1
+find ~ ! -user ${USER}
+chgrp -R www-data /var/tmp/jinfo
+join -j1 file2 file1
+find /usr/share/doc -name '[Rr][Ee][Aa][Dd][Mm][Ee]*'
+find ./ -name "*sub*"
+uname -a
+mkdir -p a/b/c
+find -print0
+find /path ! -perm /g+w
+which python
+find / -xdev -name "*.txt"
+mkdir ~/temp
+sudo chown root:wheel bin
+cp -R "$1" "$2"
+find . -name onlyme.sh -exec pwd \;
+split -l5000000 data.tsv '_tmp';
+find . -regex ".*/my.*p.$" -a -not -regex ".*test.*"
+rsync -a --progress --remove-source-files src/test/ dest
+mkdir -pv /tmp/boostinst
+find / -mount \! -readable -prune  -o  -path /dev -prune  -o  -name '*.jbd' -ls
+myHostName=`hostname`
+find . -newer httpd.conf
+find . -samefile /path/to/file
+find /home/username/public_html/images -name "articles.jpg"
+find . -iname "photo.jpg"
+find . -name "*.pdf" -print
+find / -size 50c
+find . -regex '.*\(net\|comm\).*'
+find -name “*.txt”
+find . -iname 'process.txt' -print
+df
+ps -ef
+chown amzadm.root -R /usr/lib/python2.6/site-packages/
+tree -d
+ls $PWD/cat.wav
+read -r -n 1 -p "${1:-Continue?} [y/n]: " REPLY
+find /root/directory/to/search -name 'filename.*'
+find "${DIR}" -name "*.txt"
+find *
+find -name *.sh
+mkdir /etc/cron.15sec
+read VARNAME
+find . -name '[mM][yY][fF][iI][lL][eE]*'
+find ~ ! -user ${USER}
+find . -name 'my*'
+jobs -x echo %1
+find . -name "FILES.EXT"
+cat Little_Commas.TXT
+chown -R tomcat7:tomcat7 webapps temp logs work conf
+find . — name "*" — print -о -name ".*" — print -depth
+find . -perm 664
+find . -name "photo*.jpg"
+find -mindepth $i -maxdepth $i "$@"
+mv -t target file1 file2 ...
+find . -name '*.txt' -print0
+find your/dir -mindepth 1 -prune -empty
+find .  -path '*f'
+find /myDir -mindepth 1 -mtime 7 -delete
+find -iname "*.jpg"
+gzip archive.tar
+chgrp -R $GROUP $PATH_TO_OUTPUT_FOLDER
+tail great-big-file.log
+find . -name test.txt
+mv /usr/bin/openssl /root/
+find foo -path /tmp/foo/bar -print
+find . -maxdepth 1 -name "$a" -print -quit
+sed -i.bak s/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g index.html
+sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+find . -name "*fink*" -print
+read -p "Do you wish to install this program?" yn
+mkdir -p project/{lib/ext,bin,src,doc/{html,info,pdf},demo/stat/a}
+find /home/calvin/ -iname “picasso”
+find * -name "*.java"
+chgrp --recursive website public_html
+tree -P "*foo"
+find . ! -path *mmm*
+pstree -p $$
+less -N file.txt
+tree -L 2 -fi
+find /home/calvin/ -maxdepth 2  -name “*.txt”
+find -name "*.cpp" -o -name "*.c"
+mkdir ~/public_html
+find .  -size 10 print
+rsync -chavzP --stats /path/to/copy user@host.remoted.from:/path/to/local/storage
+find . -name .vendor -prune -o -name '*.rb' -print
+find /home -user joe
+bzip2 -kv */*
+mv file001abc.txt abc1.txt
+ssh -f mysql_access_server -L 3309:sqlmaster.example.com:3306 -N
+find /myfiles -size 5
+grep -inr "Text" folder/to/be/searched/
+rsync -a --delete blanktest/ test/
+ssh -i ./middle_id.pem -R 22:localhost:2222 middleuser@middle.example.org
+find / -name "*.php" -print -o -path '/media' -prune
+bzip2 -d /tmp/itunes20140618.tbz
+find /home/dm -name "*uniform*"
+read -r -p "${1:-Are you sure? [y/N]} " response
+find / -samefile passwd
+sed -f commandfile file
+find -s
+find / -path /proc -prune -o -user account -ls
+find A \! -path "A/a/*"
+$ ls -Fltr *
+find /usr/local -iname "*blast*"
+find ~ -empty
+chgrp -R admin *
+find . -name "foo*"
+find . -name 'cmn-*.flac'
+find . -iregex '.*/\(EA\|FS\)_.*'
+find / -name "*" — print
+find "$DIR" -name \*.txt
+paste -sd: INPUT.txt
+find ~/ -name '*.txt'
+find /usr -newer /tmp/stamp$$
+find / -user root -name tecmint.txt
+find . -regex ".*/my.*p.$"
+find . -name FOLDER1 -prune -o -name filename -delete
+mkdir aaa
+ping youhostname.local
+find / -name '*.tif ' –print
+rsync -aqz _vimrc ~/.vimrc
+sudo chown -R  $USER:$GROUP /var/log/cassandra
+find /dir/path/look/up -name "dir-name-here" -print
+find .  -path '*/*config'
+find . -path ./src/emacs -prune -o -print
+find jcho -name 2*.data
+find /home -group developer
+cp -n src dest
+grep -r -H "text string to search” directory-path
+find /home/www/ ! -executable
+source=`mktemp`
+mkdir -p es/LC_MESSAGES
+find . -name *.mp3
+find . -name \*.sql
+cd -P xyz
+file utf8.txt
+rm -v *.bak
+mkdir -p $tempWork
+find / -perm 1551
+split -a 4 -d -l 50000 domains.xml domains_
+find /path -perm /011
+find .*
+paste -s -d","
+cp -r ../include/gtest ~/usr/gtest/include/
+find /home -perm 1553
+find .  -name "*.groovy" -not -path "./target/*" -print
+gunzip $empty_variable
+find /home/oracle /home/database -name '*zip*'
+find / -name /transfer -prune -o -print
+find . -not -path '*/\.*'
+find ~ -mtime 1 -daystart
+sudo chown root:wheel adbind.bash
+find -name '*.log' -delete
+sort -u -t, -k1,1 file
+find . -name "*.txt" -print
+ifconfig eth0 hw ether 00:80:48:BA:d1:30
+find . -iname 'MyFile*'
+find . -name "*sub*.cpp"
+find / -user username -group groupname -name filename
+ls -d ./*/                     ### more reliable BSD ls
+mkdir -p foo/bar/baz
+find -iname "query"
+tree --help
+nl filename
+find -name file -okdir echo '-okdir is an action so an implicit -print is not applied' \;
+fifo_name=$(mktemp -u -t fifo.XXXXXX)
+find ./dir1 ./dir2 -name foo.bar -print
+read -n1 -p "Pick a letter to run a command [A, B, or C for more info] " runCommand
+rsync -rtuv /path/to/dir_a/* /path/to/dir_b
+find . -name "articles.jpg"
+find . -regex './kt[0-9] '
+find . -name filename.txt
+find . -perm /u=w,g=w
+rsync -r username@computer:/path/to/source /path/to/dest
+split -l $MAX_LINES_PER_CHUNK $ORIGINAL_FILE $CHUNK_FILE_PREFIX
+find parent -name dir*
+paste -d "" - -
+sort -u set1 set2
+mkdir ~/log
+find . -name "*.c"
+split -b 10 input.txt xxx/split-file
+find . -path '*/lang/en.css' -prune -o -name '*.css' -print
+diff --brief -Nr dir1/ dir2/
+find katalogi -name wzorzec
+ssh -O check officefirewall
+find your/dir -prune -empty
+cd /cygdrive/c/Program\ Files\ \(x86\)
+find /home/bluher -name \*.java
+who
+find . -name test
+chmod -R 755 /directory
+ping 8.8.8.8 -I eth9 -c 3 -w 3
+find / -size 0 -print
+files=`find .`
+find -x /var -inum 212042
+find / -name file1
+/usr/bin/find $DIR -maxdepth 1 -ipath $TMP_DIR -print -quit
+find ./ -name '*~'
+find /var/log/
+find /var/tmp -uid 1000
+find 'my key phrase'
+chgrp loggroup logdir
+find -name 'catalina*'
+ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+split -n 100000 /usr/bin/gcc
+read -t 10
+find /path ! -perm /020
+find . -amin 10
+find ~ -name '*.xbm'
+find . -perm /u=w,g=w
+find ./bin -name “cp”
+find -name *bar
+find -name "<fileName>"
+find -name '*.txt'
+read
+rsync -a -v --ignore-existing src dst
+ln -f secret_file.txt non_secret_file.txt
+ssh user@host -S /tmp/%r@%h:%p
+find . -name \*.php
+comm -1 -2 file1.sorted file2.sorted
+sudo chown root:root uid_demo
+crontab -u apache -l
+set -x
+END_ABS=`pwd -P`
+find / -iname '*.ogg'
+find . –name "*.txt" –mtime 5
+find . -name "*.txt" -print
+find .  -path '*f'
+rename 's/_h.png/_half.png/' *.png
+find . -name foo.txt
+find "$directory" -perm "$permissions"
+rsync -a -f"+ info.txt" -f"+ data.zip" -f'-! */' folder1/ copy_of_folder1/
+grep -RIl "" .
+find . -name '*.scm'
+find / -xdev -name \*.rpm
+sort -b -n -k2.4 table
+mv ~/Linux/Old/^Tux.png ~/Linux/New/
+read -N $BUFSIZE buffer
+mydir=$(mktemp -d "${TMPDIR:-/tmp/}$(basename $0).XXXXXXXXXXXX")
+find --version
+rename s/0000/000/ F0000*
+find ~ -empty
+split -n 1000000 /etc/gconf/schemas/gnome-terminal.schemas
+mv /path/subfolder/.* /path/
+read -p "Continue (y/n)?" choice
+find -maxdepth 1 -iname "*target*"
+find . -print
+find . -path './src/emacs' -prune -o -print
+find /usr/local/man /opt/local/man -name 'my*'
+find /home -name "*.txt"
+find -mmin 60
+rm -f A*.pdf
+sed '/pattern to match/d' ./infile
+tree -p -u -g -f -i
+find . -name '*$VERSION*'
+find . -name "*.flac" -exec basename \{\} .flac \;
+find . -print -name dir -prune
+watch -n 0.5 ls -l
+mv -f file.txt /var/lib/docker/devicemapper/mnt/$CONTAINER_ID/rootfs/root/file.txt
+ln -nsf alpha_2 alpha
+find / -size 15M
+find -mmin 60
+chmod 777 /usr/bin/wget
+find ./ -name blah
+find . -name "*.mov"
+find . -path "./sr*sc"
+mkdir /cpuset
+file /mnt/c/BOOT.INI
+head -c N file.txt
+find . -iname *.txt -exec egrep mystring \{\} \;
+find -name file -quit
+find /usr -name '*.sh'
+find /dir/to/search -path '*/.*' -print
+find . -lname '*sysdep.c'
+rsync -avzru --delete-excluded /media/Incoming/music/ server:/media/10001/music/
+curl -L https://get.scoop.sh
+find /home/apache -size 100c -print
+tr '[:blank:]' \\t
+echo ${filename%.*}
+read -r -d $'\0' f2
+find . -print
+zless MyFile
+set +e
+find /mnt/usb -name  "*.mp3" -print
+ssh-keygen -f ~/.ssh/apache-rsync
+sed -z 's/\n/ /'g
+find . -name "*.js"
+find / -perm /a=x
+find man5 -print
+find / -perm /g+w,o+w
+diff -y one.txt two.txt
+find . -follow -inum 41525360
+chown -R root:root /var/cache/jenkins
+nl -s"^M${LOGFILE}>  "
+find /foo -name "*.txt" -delete
+find /var/log -name "*.log" -print0
+ls -l /lib*/ld-linux*.so.2
+find ~ -size 100M
+comm -23 second-file-sorted.txt first-file-sorted.txt
+find . -empty
+find . -regex ".*/my.*p.$" -a -not -regex ".*test.*"
+chmod a+x myscript.sh
+find . -empty
+find / -xdev -name document -print
+find /usr -name temp -print
+gzip -d ${set1[@]} &
+find ./js/ -name "*.js.compiled" -print0
+find / -name httpd.conf -newer /etc/apache-perl/httpd.conf
+find . -name  "*.java"
+ssh app1
+which gcc
+sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node* /usr/local/lib/dtrace/node.d ~/.npm ~/.node-gyp /opt/local/bin/node opt/local/include/node /opt/local/lib/node_modules
+du -a
+find . -name "*.css"
+find -name *bar
+pstree -a
+find . -name ".txt"
+ssh-keygen -f ~/.ssh/id_rsa -P ""
+find . -name '*foo*'
+cat -n infile
+find wordpress -name '*js'
+find _CACHE_*
+tree /
+find . -mtime 1 -name "*.html" -print
+sed -i 's/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g' index.html
+watch -n 1 date
+scp -qv $USER@$HOST:$SRC $DEST
+find . -print -name SCCS -prune
+find -x / -name foo
+find / -perm 0551
+find . -perm /u+w,g+w
+tr  ' ' '-'
+cal -3
+sed -e '{:q;N;s/\n/ /g;t q}' file
+find /usr/src/linux -name "*.html"
+chgrp -R git ./
+find / -user pat -iname "filename"
+find . -name 'fileA_*' -o -name 'fileB_*'
+find / -xdev -name "*.log"
+sudo ln -sTfv "$default_java_dir" "/usr/lib/jvm/default-java"
+tar xpvf /path/to/my_archive.tar.xz -C /path/to/extract
+file -i filename
+df -k /some/dir
+find /your/project -maxdepth 1 ! -name "CONFIGFILE" -exec ln -s \{\} ./ \;
+find . -fprint foo
+sudo chown root /home/bob
+find . -name "*.pl"
+tmpdir=$(mktemp -d /tmp/tardir-XXXXXX)
+bzip2 -t file.bz2
+sleep 1
+find . -delete
+sudo rm -rf bin/node bin/node-waf include/node lib/node lib/pkgconfig/nodejs.pc share/man/man1/node
+od -xc filename
+mkdir -p ~/temp/bluecove/target/
+read -d '' line
+DIR_PATH=`readlink -f "${the_stuff_you_test}"`
+df -H --total /
+find . -name "a.txt" -print
+find -name "*test*" -depth
+rsync -rvc --delete --size-only --dry-run source dir target dir
+find . -regex filename-regex.\*\.html
+find /etc -name hosts
+cp -R SRCFOLDER DESTFOLDER/
+find . ! -name "*.txt"
+ln -s "$dir" "$1/link"
+find . -perm /222
+tree -a .
+mkdir mnt point
+find /abs/path/to/directory -maxdepth 1 -name '.*invalidTemplateName.*'
+sort -t$'\t' -k6V -k7n file
+chown $1:httpd .htaccess
+ssh -fNT -L4431:www1:443 -L4432:www2:443 colocatedserver
+find . -maxdepth 1 -not -samefile /home/nez/file.txt
+find lpi104-6 -inum 1988884
+chown -R :daemon /tmp/php_session
+find . ! -path '*bar*' -print
+find -print0
+find . -regex ".*\\.rb$"
+VARIABLENAME=$(date -d @133986838)
+find . -name '*`$VERSION`*'
+ls -b
+mv Tux.png .Tux.png
+CC=$(which cc) ./configure
+bind -r '\e'
+find -maxdepth num -name query
+ln -sf '/cygdrive/c/Users/Mic/Desktop/PENDING - Pics/' '/cygdrive/c/Users/Mic/mypics'
+find empty1 empty2 not_empty -prune -empty
+df -P
+find . -path '*/.svn*' -prune -o -print
+find . -newermt "5 days"
+watch 'echo -e "\033[31mHello World\033[0m"'
+find  / -name "apt"
+find /home -size 10M
+sort -m _tmp* -o data.tsv.sorted
+find аргумент [опция_поиска] [значение] [значение]
+find . -name "orm.*"
+chmod g+w .[^.]* ..?*
+find $something
+find -regex '.*\.\(c\|cpp\)'
+find /usr/share/doc -iname readme\*
+find . -ls -name "*.ksh"
+find "$d" -prune -empty
+chown -R owner:owner public_html
+find / -name httpd.conf -newer /etc/apache-perl/httpd.conf
+find $HOME \! -iname "*.c" print
+chown root:root it
+split /tmp/files
+find asia emea -name \*.gz
+find . -iname test
+file ascii.txt
+find . -name "*.css"
+find . -maxdepth 1 -print0
+find -print
+find /var/tmp -uid 1000
+tail -f /var/log/syslog
+find / -uid 1005
+sudo ssh $USERNAME@localhost -L 80:localhost:3000 -N
+rsync --sparse sparse-1 sparse-1-copy
+split -b 10M -d  system.log system_split.log
+split -b 1024m file.tar.gz
+nohup rm -rf cache &
+uname -m
+split -C 100m -d data.tsv data.tsv.
+find * -maxdepth 0
+mkdir backup
+find . -wholename './src/emacs' -prune -o -print
+sed 's/.*/\L&/'
+scp user@server_b:/my_folder/my_file.xml user@server_b:/my_new_folder/
+mkdir mybuild
+find  / -name "apt" -ls
+mkdir -p /tmp/test/blah/oops/something
+read -e -p "${myprompt@P}"
+find ~/ -name '*.txt'
+bind -q complete
+ssh-keygen -f "/root/.ssh/known_hosts" -R gitlab.site.org
+find -maxdepth 2 -name passwd
+rsync -chavzP --stats user@remote.host:/path/to/copy /path/to/local/storage
+find . -name "filename including space" -print0
+find . -size 2000k -print
+find . -lname \*foo.txt
+find -L
+find /tmp/1 -iname '*.txt' -not -iname '[0-9A-Za-z]*.txt'
+find /home/user/ -cmin 10 -print
+find /usr -newermt "Feb 1"
+find / -perm /u=r
+ssh remote_user@server.com
+mkdir /tmp/foo
+find . -iname "*filename*"
+find /var/log -daystart -mtime 0
+find / -iname "*.mp3" -print
+find $HOME -iname '*.ogg'
+find / -name “*.jpg”
+find . -name 'orm*'
+find . -iregex './\(EA\|FS\)_.*'
+ping -s www.google.com 2 4
+find . -print
+rsync /path/to/local/storage user@remote.host:/path/to/copy
+diff -qr dir1/ dir2/
+find /home /opt -name test.txt
+find / -user pat -iname "Dateiname"
+find / -perm /u=r
+find . -name '*.wav' -maxdepth 1
+find var/log/ -iname anaconda.*
+read -t 0.1 -p "This will be sent to stderr"
+mkdir foo bar
+find ~/ -maxdepth 3 -name teste.tex
+find -ls
+find /some/dir/ -maxdepth 0 -empty
+find -executable
+find . -name "$pattern"
+find . -inum NUM
+find . -name *.rb
+find /home -name "*.c"
+find . -print0
+find . -maxdepth 0 -print
+column -t -s $'\n' list-of-entries.txt
+ln -s "$ACTUAL_DIR" "$SYMLINK"
+find / -mtime 50
+fullpath=`readlink -f "$path"`
+find .
+find / -user root -iname "*.txt"
+find . -size 2000k
+find . ! -user root
+rsync -avlzp /path/to/sfolder name@remote.server:/path/to/remote/dfolder
+find / -name passwd
+find . -name "*.java" -exec sed -i s/foo/bar/g \;
+find . -name FOLDER1 -prune -o -name filename
+history -w
+find ./
+find / -mount -name "*.txt"
+rsync -av --copy-dirlinks --delete ../htmlguide ~/src/
+bzip2 -k example.log
+find /etc -name '*.conf'
+sort -S 50% file
+find . -name '*'
+history -cr
+sudo rm /var/lib/mongodb/mongod.lock
+find /home -user sam
+find . -name bad -empty -delete
+find . -name "accepted_hits.bam"
+MKTEMP=`which mktemp`
+cat /etc/passwd /etc/group
+rsync -rl --delete-after --safe-links pi@192.168.1.PI:/{lib,usr} $HOME/raspberrypi/rootfs
+sudo ln -f -s $javaUsrLib/jdk1*/bin/* /usr/bin/
+find /home/user1 -name "*.bin"
+find /  -links 2 -print
+rm foo
+find /path ! -perm /022
+watch 'ls -l'
+rsync -av /home/user1/ wobgalaxy02:/home/user1/
+find /var/www -name *.gif -o -name *.jpg
+find / -name *.mp3 -fprint nameoffiletoprintto
+mkdir -p x/p/q
+chown $FUID:$FGID "$FILE2"
+ls /home/dreftymac/
+find . -name foo.txt
+find / -group users -iname "Dateiname"
+ls -d -1 $PWD/**/*
+sudo chown -R $USER /usr/local/lib/node_modules
+chgrp -R repogroup .
+rsync -rtvpl /source/backup /destination
+uniq -w12 -c file
+$ ls -Fltr $var
+find temps/ -name "thumb.png"
+find . -name *.jpg -user nobody
+find / -mtime 50
+find /usr -maxdepth 1 -print
+find /home/bozo/projects -mtime 1
+find -L /myfiles
+$ cat 1
+find /path/to/dir -newermt “Feb 07”
+pushd .
+find /dir/to/search/ -name ".*" -print
+uname -s -r -v
+find / -name .profile
+find . -newermt “Sep 1 2006” -and \! -newermt “Sep 10 2006”
+find /etc /srv \! -path "./srv/tftp/pxelinux.cfg*" -a \! -name /etc/mtab
+find -path "*/test/*" -delete
+STAMP=`date -r file_name`
+find -newer /etc/passwd
+mkdir bravo_dir alpha_dir
+fold -w3
+find . -name modules
+split -b 1024m "file.tar.gz" "file.tar.gz.part-"
+chown :friends myfile
+find / -user vivek -name "*.sh"
+readlink -e /foo/bar/baz
+find /path/to/search/in -name 'catalina*'
+comm -2 -3 f1 f2
+find . -name '*.sql' -print0
+ssh -i ~/path/mykeypair.pem ubuntu@ec2-XX-XXX-XXX-XXX.us-west-2.compute.amazonaws.com
+find . type -f -ctime 2
+find . -delete
+find ./ -mtime 3
+read -p "Enter your choice: " choice
+find / -perm 777 -iname "filename"
+ln --symbolic --interactive $SCRIPT_DIR/$FILE
+awk '{s+=$1} END {print s}' mydatafile
+find -regex "^.*~$\|^.*#$"
+find /usr ! -newer /FirstFile -print
+find . -mnewer poop
+find /var/log/ -iname anaconda.*
+find / -user vivek
+find . -name pro\*
+read -p "Password: " -s SSHPASS
+sort foo.txt
+split -n l/10 file
+set -eu
+sudo mv edited_blah.tmp /etc/blah
+set -e
+find /etc/apache-perl -newer /etc/apache-perl/httpd.conf
+df
+read PASSWORD
+read -r -p "Are you sure? [y/N] " response
+find / -mtime 50
+rsync -rtuv /path/to/dir_b/* /path/to/dir_a
+set +a
+hostname  -i
+cp --help
+find / -name filename -print
+find . -nogroup
+sudo ln -s /usr/include/oracle/11.2/client $ORACLE_HOME/include
+bind -m vi-insert '"{" "\C-v{}\ei"'
+find . -path ./src/emacs -prune -o -print
+scp -r myServer:/something
+curl http://example.com/textfile.txt -o textfile.txt
+find -L / -samefile path/to/foo.txt
+grep -R "texthere" *
+find .  -newermt "1 hour ago"
+find . -name '*.rpm'
+chgrp forge /var/run/fcgiwrap.socket
+gzip -dc /file/address/file.tar.gz
+find / -mount -name 'win*'
+set -g mouse on
+find /usr -name java
+find -print0
+diff -Naur dir1/ dir2/
+find -iname "MyCProgram.c"
+chmod a+x ComputeDate col printdirections
+find . -perm /g+s
+find /usr -name \*.sh
+find / -size 50M
+find /path -perm /g+w,o+w
+find -ipath 'projects/insanewebproject'
+read -u 4 line
+find /home/david -iname 'index*'
+find /etc/apache-perl -newer /etc/apache-perl/httpd.conf
+find . -perm 777 -print
+find . -path './sr*sc'
+diff -y /tmp/test1  /tmp/test2
+less -p regex file_name
+find / \! -readable -prune -o -name '*.jbd' -ls
+readlink -f YOUR_PATH
+find dir -name '?????????????????????????????????'
+find . -size 0
+diff --brief -r dir1/ dir2/
+find . -name "*.html"
+find . -xdev -name "wagoneer*" -print
+find . -name '*.mp3' -name '*.jpg' -print
+cp -rs /mnt/usr/lib /usr/
+split -l 200000 mybigfile.txt
+find . -uid 0 -print
+find . -name aaa.txt
+find -name met*
+find -anewer /etc/hosts
+rsync -a --relative /new/x/y/z/ user@remote:/pre_existing/dir/
+find . -name '*.rb'
+seq 1 100
+rename -v 's/\.JPG/\.jpeg/' *.JPG
+find -user eric -print
+find /myfiles -name '*blue*'
+find . -name '*.rb' ! -wholename "./vendor/*" -print
+x=$(whoami)
+find . -empty -delete -print
+find . -name RAID -prune -o -print
+bg %  so it wont die when you logoff
+mv /path/subfolder/{.,}* /path/
+mkdir bravo_dir alpha_dir
+find -name 'file*' -size 0 -delete
+find . -name ”*.old” -print
+wc -l *.c
+mkdir /etc/cron.15sec
+find . -name *.ini
+find . -name 'myletter*' -print
+cal -3 12 2120
+find . -name "*.txt"
+find . -print
+split -l5000000 randn20M.csv '_tmp';
+find . -iname "*needle*"
+find -name \*.plist
+find . -name '*.doc'
+read -p "Continue (y/n)?" CONT
+ssh -O exit otherHosttunnel
+find . — name "[a‑z][a‑z][0—9][0—9].txt" — print
+find . -path './src/emacs' -prune -o -print
+find -amin 30
+filename="`basename "http://pics.sitename.com/images/191211/pic.jpg"`"
+ls -ld /tmp /tnt
+find --version
+ln -sf '/cygdrive/c/Users/Mic/Desktop/PENDING - Pics/' /cygdrive/c/Users/Mic/mypics
+find -delete
+find /usr -name *stat
+find . -print -name SCCS -prune
+cut -d: -f1 /etc/group
+dir_context=$(dirname -- "$1")
+ssh -L 1234:remote2:22 -p 45678 user1@remote1
+who -b
+mkdir -p ./some/path
+su username
+chmod 444 .bash_logout .bashrc .profile
+find ~/Programming -path '*/src/*.c'
+find -mindepth 4 -name file
+find /home -name "*.c"
+ssh-keygen -l -f /etc/ssh/ssh_host_ecdsa_key.pub
+find / -user tutonics -name "file.txt"
+mkdir tata
+find . -name modules
+find / -name "*gif" -print
+ln -r -s "$orig_dest" "$dest_dir/$orig_name"
+more /var/log/syslog
+find . -name *.o -perm 664 -print
+cat -n
+rm -fR "${TMP}/";
+find foo/// bar/// -name foo -o -name 'bar?*'
+find / -mtime 50
+sudo find / -iname '*.ogg'
+sudo chown root:root uid_demo
+md5sum "$ecriv"
+find *-name hi.dat
+mkdir .hiddendir
+find . -name "*.VER"
+find . -name "file.ext" -execdir pwd ';'
+find /home/sdt5z/tmp -name "accepted_hits.bam"
+find /var/www/ -name wp-config.php -maxdepth 2
+read -rp $'Are you sure (Y/n) : ' -ei $'Y' key
+find . -maxdepth 0
+find -perm 664
+chmod -R 777 ../tools
+find . -name photoA.jpg
+ln -s newtarget temp
+sudo chown root:dockerroot /var/run/docker.sock
+find /home/ -name monfichier
+find -L .
+find / \! -name "*.c" -print
+find -name "query"
+ssh-keygen -pf private.key
+find . -name "file.ext" -execdir pwd ';'
+mkdir ~/log
+kill $PID
+chmod a+x $pathToShell"myShell.sh"
+find . -newer /reference/file
+cat -v -e filename
+sudo mv /usr/bin/php /usr/bin/~php
+find / -newer /tmp/t1 -and -not -newer /tmp/t2
+find -version
+find src/ -name '*.[ch]'
+pushd -2
+rename _dbg.txt .txt **/*dbg*
+find / -name linux
+grep -rnw "pattern"
+f=$(cat numbers.txt)
+sudo su
+cat myfile
+find ! -newermt "apr 01 2007" -newermt "mar 01 2007" -ls
+read -s ENTERED_PASSWORD
+find /myfiles -name '*blue*'
+chown user_name folder
+watch -n 300 du -s path
+mkdir /tmp/new
+ping -c 4 -q google.comz
+rmdir --ignore-fail-on-non-empty $newBaseDir/Data/NewDataCopy
+find ~ -name 'top*' -newer /etc/motd
+find /home/hobbes/ /home/calvin/ -name “*.txt”
+find /usr -name '*.foo' -print
+find --version
+find /tmp/foo -path /tmp/foo/bar -print
+split
+touch -r A B
+me=$(readlink --canonicalize --no-newline $BASH_SOURCE)
+cat xx.sh
+find . -not -regex ".*test.*"
+SCRIPT="$(readlink --canonicalize-existing "$0")"
+tar xzf archive.tar.gz -C /destination
+find . -lname '*sysdep.c'
+chown -R $JBOSS_AS_USER:$JBOSS_AS_USER $JBOSS_AS_DIR/
+kill %1
+ln -s  "${TARGET}${file}"  "${DESTINATION}${file}"
+false
+diff -r dir1/ dir2/
+find . -regex '.+\.\(php|js\)'
+find . -iname "needle"
+basename testFile.txt.1 .1
+find . -name *.py
+find . -atime 7 -print
+read -u 4 -N $char -r -s line
+find . -name "*~" -delete
+find -used +2
+find / -nouser -print
+bind '"\e[24~":"\C-k \C-upwd\n"'
+fold -w30 longline
+dig $domain
+mkdir /path/to/destination
+split -l ${2:-10000} -d -a 6 "$1"
+find / -atime 50
+sudo chown nobody /var/www/html/mysite/images/
+find / -iname '*.txt'
+paste -sd "" file.txt
+find . -name "S1A*1S*SAFE"
+find /etc -newer /tmp/foo
+find . -name "*.rb" -or -name "*.py"
+find . -regex "./[a-f0-9\-]\{36\}\.jpg"
+chown -R nobody upload_directory
+find ./polkadots -name "image.pdf" -print0
+chown user destination_dir
+cp --help
+find . -name "*.txt"
+mktemp /tmp/banana.XXXXXXXXXXXXXXXXXXXXXXX.mp3
+find /home -user bob
+find . -maxdepth 2 -name 'onlyme*'
+find . -name test
+find /path/to/your/directory -regex '.*\.\(avi\|flv\)'
+cal 02 1956
+mkdir dir1
+find / -iname "testfile.txt"
+find /usr -newermt "Feb 1"
+find $HOME -print
+find /
+find .
+sudo su
+find . -mtime 7
+grep -Ril "text-to-find-here" /
+readlink -m /path/there/../../
+mkdir -p "$TARGET_PATH"
+gunzip test1/*/*.gz
+sort -n out
+find . -print -o -name SCCS -prune
+NAME=`basename "$FILE"`
+find .
+find / -name "[Xx]*"
+find /usr/share/doc -iname readme\*
+find / -perm /a=x
+diff -rq /path/to/folder1 /path/to/folder2
+find . -iname "Articles.jpg"
+touch filename
+find . -name *conf*
+ssh -p 22 myName@hostname
+cp /file/that/exists /location/for/new/file
+diff  --brief --recursive dir1/ dir2/
+find /home -perm /u=r
+find -iname "Dateiname"
+find . -name '* *'
+chown ftpuser testproject/ -R
+read -rsp $'Press any key or wait 5 seconds to continue...\n' -n 1 -t 5
+file file-name
+find . -path './src/emacs' -prune -o -print
+find / -user root -name FindCommandExamples.txt
+find . -name *.ini
+rsync -rvv *.txt user@remote.machine:/tmp/newdir/
+mkdir /etc/cron.minute
+ln -s target
+chown -R user:www-data yourprojectfoldername
+find /volume1/uploads -name "*.mkv"
+find . -mtime 1
+source "$DIR/incl.sh"
+find . -name '*shp*'
+chown ftpuser testproject/ -R
+comm -12 ignore.txt input.txt
+find ./var/log
+find /home/user/ -cmin 10 -print
+ping -c 1 $remote_machine
+find $@ -ls
+find / -nogroup staff -print
+find /dir/to/search/ -not -name "*.c" -print
+find .
+diff "$source_file" "$dest_file"
+find . -name file1 -or -name file9
+find . -name 'secret' -prune -o -print
+history
+split -l 100 "$SOURCE_FILE"
+ssh -p 10022 localhost
+find -print0
+find / -group users -iname "filename"
+find . -iname *.mov
+find /var/www -name *.gif
+tail -f /var/log/syslog
+chgrp -R project_dev /home/user1/project/dev
+rm **/*.pyc
+read -n1 -p "Do that? [y,n]" doit
+find . -regex ".*\(\.txt\|\.pdf\)$"
+ln -s /usr/share/my-ditor/my-editor-executable /usr/bin/my-editor
+var=$(ls -l)
+find . -regex '.*myfile[0-9][0-9]?'
+crontab yourFile.text
+find -name '*.log' -delete
+find . -iname filename.txt
+find /home/family/Music -name *.m4a -print0
+find -user root -o -user www-data
+find -name '*.js' -not -path './node_modules/*' -not -path './vendor/*'
+find . -size 10c -print
+find . -path ./.git  -prune -o -name file  -print
+rm -rf *~important-file
+rsync -avz --progress local/path/some_file usr@server.com:"/some/path/"
+join -t: selection2.txt selection1.txt
+chown -R root:root /var/lib/jenkins
+chgrp Workers shared
+find  /usr/lib/ /usr/lib64/ -lname "*libstdc++*"
+ln -s www1 www
+ifconfig
+mv * /foo
+dig stackoverflow.com
+find -version
+find /home/wsuNID/ -name "*.txt"
+find  . -name '*.bak' -ls
+find . -mmin 0.5
+find / -atime 50
+find . -writable
+finger vivek
+mkdir certs/
+find . -iregex ".*packet.*"
+find -newer /etc/passwd
+find . -writable
+read -p "Please Enter a Message: $cr" message
+find / -nouser -o  -nogroup
+find /dir/containing/unsigned -name '*.pdf' -print0
+touch -m 201111301200.00 $log_dir/last.check
+rsync -u src dest
+find Symfony -iname '*config*';
+find /Users/david/Desktop/-type f
+find . -newer  backup.tar.gz
+find bar -path /foo/bar/myfile -print
+find -anewer /etc/hosts
+find . -newer  backup.tar.gz
+rename -v 's#/file##' v_{1,2,3}/file.txt
+find $ARCH1 -ls
+chgrp -R git .git
+chgrp "${USER}" myprogram
+find . -perm /222
+find bla -name "*.so"
+find /usr/local -iname "*blast*"
+find . -name *.txt -print
+find . -readable
+find . -mtime 0
+find . type -f -mtime 2
+find /store/01 -name "*.fits"
+mkdir --parents ./es_MX.utf8/LC_MESSAGES
+which find
+chown -R user:www-data yourprojectfoldername
+find . -name '*.pdf' -or -name '*.PDF'
+find -mindepth 0 -maxdepth 0
+find . -name "foo.*"
+find /path/to/folder -name fileName.txt -not -path "*/ignored_directory/*"
+sudo chgrp gpio /sys/class/gpio/export /sys/class/gpio/unexport
+find . -name '*.[ch]'
+find . -perm /220
+find -name 'index.*'
+sudo find . -name test1.h
+find ~ -name 'xx*' -and -not -name 'xxx'
+find . -perm 664
+rename 's/^123_//' *.txt
+chown -R root:root /var/lib/jenkins
+find /usr/src -name CVS -prune -o -mindepth 7 -print
+find /home/calvin/ -mindepth 2  -name “*.txt”
+find ! -path "dir1" -iname "*.mp3"
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+find . -iname "*$@*" -or -iname ".*$@*"
+find $HOME -name \*txt -o -name \*html -print0
+find -nouser
+find . -name '*.axvw'
+ln -nsf $lastModified $SYMLINK_PATH
+find . -newer document -print
+who -m
+cp * .hiddendir -R
+find .  -perm 775 -print
+find -name *.tar.gz
+pushd %Pathname%
+find $HOME -not -iname "*.c" -print
+uname -a
+sed -ibak -e s/STRING_TO_REPLACE/REPLACE_WITH/g index.html
+bzip2 -kv */*/*
+sudo chown -R xxx /Users/xxx/Library/Developer/Xcode/Templates
+find /etc -name ppp.conf
+find ./ -user tom
+find ! -path "dir1" -iname "*.mp3"
+find ./ -name "*.sqlite" -ls
+find "$some_directory" -name '.*' ! -name '.' ! -name '..' -delete
+w
+df -k /dir/inner_dir/
+set
+cat ~/.ssh/config
+find \! -name "query_to_avoid"
+chown owner:nobody public_html
+watch ls -l
+ssh -i ./device_id.pem -p 2222 deviceuser@middle.example.org
+diff -y file1 file2
+find / -name foo.txt
+sudo chown root:www-data /foobar/test_file
+touch -d '30 August 2013' *.php
+find "$dir"
+rsync -avz foo:src/bar /data/tmp
+jobs -lp
+find . -print0
+watch ls -l data.temp
+mkdir destdir
+find -uid 1000
+mkdir alpha_real
+rsync -a myfile /foo/bar/
+find ~/ -name '*.txt'
+find . -maxdepth 2 -name '*.tex'
+sudo crontab -u wwwrun -e
+mkdir alpha_real
+find . -user daniel
+sudo su -
+find / -name ”*filename*”
+find -maxdepth 0
+shred -v -n 1 -z -u /path/to/your/file
+find /basedir/ -iname '*company*' -print0
+ssh -R 10022:localhost:22 device@server
+find -iname "MyCProgram.c"
+find . -name "image*.png"
+fg
+find / -name foo.bar -print
+find / -iname "filename"
+sort temp.txt -otemp.txt
+rm -ri *
+find /usr -group staff
+find ./ -iname ! -iname dirname
+chown -v root:root /path/to/yourapp
+find -maxdepth 1 -not -iname "MyCProgram.c"
+find /home/user/ -cmin 10 -print
+find / -user seamstress -iname “*.pdf”
+find /home/jassi/ -name "aliencoders.[0-9]+"
+find ~/ -name '*.txt'
+uniq
+find /home/bozo/projects -mtime 1
+rsync -a --stats --progress --delete /home/path server:path
+find . -name "*.html" -print
+find . -name bin -prune -o -name "*.txt" -print
+find . -iregex '.*sitesearch.*' -iregex '.*demo.*'
+find ./ -name "*.sqlite"
+find /dir/path/look/up -name "dir-name-here"
+find / -xdev -name "*.rpm"
+rsync -Rv src/prog.js images/icon.jpg /tmp/package/
+sudo chmod 755 mksdcard
+find . -path ./directory -prune -o -name '*.js' -print
+chown user destination_dir
+find . -name '*.txt'
+bzip2 -kv */*/*/*
+mv -f file.txt /var/lib/docker/aufs/mnt/$CONTAINER_ID/rootfs/root/file.txt
+mkdir -p ~/foo/bar/baz ~/foo/bar/bif ~/foo/boo/bang
+find . -ls
+find . -perm 777 -print
+find . -regex './[0-9].*' -print
+ssh -i ./device_id.pem deviceuser@middle.example.org:2222
+chown user:group file ...
+find -prune
+mkdir -p $2
+find /some/dir/ -maxdepth 0 -empty -exec echo "huzzah" \;
+find /root/directory/to/search -name 'filename.*'
+find . -name '*bills*' -print
+crontab -l
+find . -maxdepth 1 -empty -not -name ".*"
+find / -nogroup -print
+rsync -av /home/user1 wobgalaxy02:/home/user1
+basename $0
+find "$HOME/" -name myfile.txt -print
+mkdir testExpress
+find . -name "*.java"
+find /home -xdev -samefile file1
+me=$(readlink --canonicalize --no-newline $0)
+SELF=$(readlink /proc/$$/fd/255)
+chown user_name file
+find . -name *.bar -maxdepth 2 -print
+find . -name '*foo'
+find . -maxdepth 1 -name "name1" -o -name "name2"
+find / -lname foo.txt
+history -r .cwdhist
+man find
+pstree -sp $$
+find foo -name Headers
+bg
+find /root -name FindCommandExamples.txt
+mkdir -p es/LC_MESSAGES
+find ~/Books -name Waldo
+find . -name "*.csv" -print0
+bind '"\e[24~":"pwd\n"'
+sed -n 's;\(http://[^/]*\)/.*;\1;p'
+find .*
+df -k .
+jobs -l
+find / -xdev -name "*.rpm"
+TMP_FILE="$(mktemp -t)"
+find . -size 0 -ls
+find /home/user1 -name \*.bin
+rm -rf *
+find /file/path ! -newermt "Jul 01"
+env - scriptname
+find / -maxdepth 3 -name passwd
+find . ! -local -prune -o -print
+rsync -avv source_host:path/to/application.ini ./application.ini
+ssh -f user@gateway -L 3307:1.2.3.4:3306 -N
+find . -prune -print
+td=$( mktemp -d )
+find /home -xdev -inum 2655341
+tmpdir=$(mktemp -d)
+find /usr/src -name CVS -prune -o -depth +6 -print
+scp -vp me@server:/location/files\*
+seq -w 30
+reverse=$(dig -x $ip +short)
+find "$source_dir" -name *.$input_file_type
+find ./ -perm 755
+find -print0
+cp -nr src_dir dest_dir
+sort file -o !#^
+pushd "$HOME/Pictures"
+crontab -l
+me=`basename -- "$0"`
+df -h .
+find / -newerct '1	minute ago' -print
+bzip2 -kv */*/*/*/*
+chown "dev_user"."dev_user" -R ~/.ssh/
+tar -xzvf backup.tar.gz
+kill -s WINCH $$
+sed 's/\n//' file
+find -name "*.htm" -print
+du -sh *
+find /home -group test
+find /home -user tecmint
+df --total
+mkdir -p x/p/q
+date -d @$TIMESTAMP
+tar -I 7zhelper.sh -cf OUTPUT_FILE.tar.7z paths_to_archive
+kill -9 16085
+find / -perm 644
+basename /home/jsmith/base.wiki .wiki
+find / -group lighttpd -print
+read XPID XUSERID XPRIORITY XVIRTUAL XRESIDENT XSHARED XSTATE XCPU XMEM XTIME XCOMMAND
+dig -f /path/to/host-list.txt
+gzip */*.txt
+set +m
+find . type -f -amin 2
+cd -
+df -k /tmp
+who -la
+touch "$correctFilePathAndName"
+find . -name "*.pdf" -print
+find -user takuya
+find .  -maxdepth 2 -name '*.tmp'
+find . -maxdepth 1 -name 'onlyme*'
+find . ! -name . -prune
+ssh -S my-ctrl-socket -O exit jm@sampledomain.com
+set -e
+split -C 100m -d data.tsv data.tsv.
+find -mtime 2
+find . -name \*.sql -not -samefile $oldest_to_keep -not -newer $oldest_to_keep
+clear
+chown -R $1:httpd *
+find foo -path /tmp/foo/bar -print
+find . -name file1 -print
+find  / -name "[a-j]*" -print
+find . -name "*:*"
+ls -l ${0}
+chmod -Rf u+w /path/to/git/repo/objects
+split -l 100 date.csv
+file -ib "$file"
+find . -newer some_file
+find test -depth -empty -delete
+ssh -fNT -L8888:proxyhost:8888 -R22222:localhost:22 officefirewall
+cal -h
+ln -s .bashrc test
+sudo mkdir /var/svn
+find . -name '*my key phrase*'
+tar -I pbzip2 -cf OUTPUT_FILE.tar.bz2 /DIR_TO_ZIP/
+find /usr/ -path "*local*"
+watch ls
+sudo chown -R ec2-user:apache /vol/html
+pstree -a -p 20238
+paste -d, -s file
+find ~ -name readme.txt
+find . -perm /u=x,g=x,o=x
+hostname -I
+chmod 644 img/* js/* html/*
+find . — name "*.txt" — print
+find /path -perm /011
+find . -name ".DS_STORE" -delete
+rsync -av --delete src-dir remote-user@remote-host:dest-dir
+find . -exec env f={} somecommand \;
+mkdir -p /my/other/path/here
+find ~ -name game
+find -P . -lname '*/test*'
+find / -name passwd
+find ~ ! -user $USER -exec sudo chown ${USER}:"{}" \;
+find . -links 1
+rsync -vuar --delete-after path/subfolder/ path/
+sudo chown root process
+ln -s "../config/init"
+rsync -avz tata/ tata2/
+find -newermt "mar 03, 2010" -ls
+find . -name .snapshot -prune -o -name '*.foo' -print
+find -L /myfiles
+find . -name "*.txt" -newer /tmp/newerthan
+find . -name "*.txt" -exec $SHELL -c 'echo "$0"' {} \;
+find /usr/share/doc /usr/doc /usr/locale/doc -name instr.txt
+file -bi myfile.txt
+find your/dir -prune -empty
+find / -perm 0551
+find . -path ./misc -prune -o -name '*.txt' -print
+mkdir .hiddendir
+sort -nr bb
+find -group compta
+find /win/C -iname *JPG
+find debian/fglrx/ -name 'fglrx-libGL*'
+find . -name 'some_text_2014.08.19*'
+chgrp target_group target_directory
+find -regex .*sql.*
+pstree
+WORKSTATION_IP=`dig +short $WORKSTATION`
+find /usr -newer /tmp/stamp
+find $FOLDER -name ".*" -delete
+find /tmp -regex ".*file[0-9]+$"
+comm -3 a b
+ln -sfn newDir currentDir
+find . -name tecmint.txt
+sudo chown -R test /home/test
+rev file.txt
+find . -mtime 7 -name "*.html" -print
+find . -print -o -name SCCS -prune
+find /home -user tecmint -iname "*.txt"
+comm -23 a b
+dir=$(dirname -- "$1")
+find . -name ".aux"
+find .
+find /usr/local/doc -name '*.texi'
+find /home/pat -iname "*.conf"
+find .  -path '*/*config'
+rsync -a /mnt/source-tmp /media/destination/
+popd
+find /home/exampleuser/ -name "*conf" -mtime 3
+me=$(whoami)
+find sourceDir -mindepth 1
+uname -o
+sed -n 's;\(http://[^/]*/\).*;\1;p'
+mkdir dir2
+dig TXT -f 1.txt
+find foo -path foo/bar -print
+sudo chown bob:sftponly /home/bob/writable
+find .
+watch -n 5 wget -qO-  http://fake.link/file.txt
+find / -atime 50
+find / -inum 199053
+ssh buck@hostname
+mkdir -p /tmp/test/blah/oops/something
+find . -name 'a(b*' -print
+find . -name *.jpg
+find /path/to/dir ! -perm 0644
+split bigfile /lots/of/little/files/here
+find /etc -name "*.txt" -ls
+mkdir mnt point
+find / -name drush
+find /var/www/ -name wp-config.php
+find / -user comp
+find . -name "*.rb"
+find . -name test -prune -regex ".*/my.*p.$"
+find /etc/. ! -name . -prune
+mktemp -d -t
+find -D help
+find / -group users -iname "filename"
+chown -R :lighttpd /var/lib/php/session
+true
+touch index.html
+grep -r "texthere" .
+file=$( basename "$1" )
+find . -perm /u=s
+find / -name filedir
+/usr/bin/find ./ $*
+find . -name "file2015-0*"
+CURRENT=`pwd`
+find -newer ordinary_file
+other="$(mktemp --directory)"
+thisHOSTNAME=`hostname`
+read -e -p "Enter your choice: " choice
+read -rep $'Please Enter a Message:\n' message
+find . -newer /bin/sh
+find /path/to/dir ! -perm 644
+sort -u -t : -k 1,1 -k 3,3 test.txt
+chmod 555 /home/sshtunnel/
+gunzip -t file.tar.gz
+find -name '*macs'
+basename "some/unknown/amount/of/sub/folder/file.txt"
+read -p "$*"
+find /var/log/ -iname anaconda*
+column -s"${tab}" -t
+mkdir -p $2
+find . -name "pattern" -print
+find / -regex ".*\.\(xls\|csv\)"
+tar -czf backup.tar.gz -X /path/to/exclude.txt /path/to/backup
+find /home/david -name 'index*'
+find /home ! -group test
+ln -s "/cygdrive/c/Program Files" /cygdrive/c/ProgramFiles
+find / -name filename.txt -print
+cp lib*.so ~/usr/gtest/lib
+mkdir -p foo
+tar -cvzf filename.tar.gz folder
+find / -xdev -name \*.rpm
+read -p "> $line (Press Enter to continue)"
+ls -d /home/alice/Documents/*/
+find  /var -path */l??/samba*
+find -iname "*TESTFILE*"
+find / -group shadow
+read -p "Are you sure? (y/n) " -n 1
+chown -R owner:owner public_html
+mkdir new_dir
+TR=`which tr`
+find ~ -name 'Foto*'
+dig +short -f list
+watch -n 1 ls
+split -d -l $SPLITLIMT $INFILE x_
+ln -s "$wh" wh
+readlink -f /x/y/../../a/b/z/../c/d
+find /dir/to/search/ \! -name "*.c" print
+readlink -f "$path"
+chown amzadm.root -R /usr/lib/python2.6/site-packages/awscli/
+man find
+find /home -xdev -samefile file1
+find / -iname '*python*'
+find -daystart   -atime 0 -ls
+find -not -name "query_to_avoid"
+find -name filename
+find / -empty
+rsync -avR somedir/./foo/bar/baz.c remote:/tmp/
+find . -user tommye
+find / -name grub.conf
+info -O gawk
+find . -iname test
+find /usr/src -name CVS -prune -o -depth +6 -print
+find .
+sudo cp -a libgtest_main.so libgtest.so /usr/lib/
+find /data/images -newer /tmp/foo
+find . -name "*.jpg"
+read -a first
+find . -name '*bills*' -print
+mktemp -u
+find ./ -user root
+sudo chown -Rf www-data *
+architecture="$(uname -m)"
+tree -s
+tempFile="$(mktemp "${TMPDIR:-/tmp/}$(basename "$0")-XXXXX")"
+sudo cp -a include/gtest /usr/include
+find /dir -newer yesterday.ref -a \! -newer today.ref -print
+find . -name game
+find . -mtime 7 -name "*.html" -print
+mkdir -p tmp/real_dir1 tmp/real_dir2
+find . -name \*\\?\*
+diff -a --suppress-common-lines -y a.txt b.txt
+find . ! -wholename "./etc*"
+paste tmp/sample-XXXX.{tim,log}
+find . -name aaa -print
+ssh user@host -X
+find /tmp -maxdepth 1 -name "$USER.*"
+scp -rp "DAILY_TEST_FOLDER" "root@${IPADDRESS}:/home/root/"
+foo=`which ~/f`
+find . ! -size 0k
+rsync -avlzp user@remotemachine:/path/to/files /path/to/this/folder
+sudo mount device_name mount_point
+find /home -group developer
+find -not -name "*testfileasdf*"
+read -t 3 -n 1 -p "Is this a good question (y/n)? " answer
+find . -iname 'MyFile*'
+rsync -u -r --delete dir_b dir_a
+sed -i 's/foo/bar/' file
+history -r
+ifconfig -a
+pwd -P
+find . -name "*$VERSION*"
+find . -name "pattern" -print
+df -BG
+find . -not -path '*/\.*'
+which lshw
+find . -name vmware-*.log -delete
+ln -f -s /apps/myapps/new/link/target mylink
+history -s 'echo whatever you "want your" command to be'
+sed -i ':a;N;$!ba;s/\n/,/g' test.txt
+less -S file
+chgrp
+rm -f ~/.android/adbkey ~/.android/adbkey.pub
+sed 'x;G;1!h;s/\n/ /g;$!d'
+find . -name test -prune
+find . -path './kt[0-9] '
+find -name photo.jpg
+find /Path/bar* -name "file_name*"
+find -mindepth 1 -delete
+find -maxdepth 1 -not -iname "MyCProgram.c"
+find . ! -newer some_file
+sudo chown root /home/bob
+file ~/myfile
+find -maxdepth 0
+ls -d -1 $PWD/*.*
+ping -D -n -O -i1 -W1 8.8.8.8
+bind $'"\x61"':self-insert
+find . -name aaa.txt
+find / -name "имя_файла"
+find . -name "*.tex"
+find / -mtime 1
+find /usr -print
+scp -3 user@server_b:/my_folder/my_file.xml user@server_b:/my_new_folder/
+path=`which oracle`
+basename /EBF/DirectiveFiles/data_report_PD_import_script_ABF1_6
+mkdir TestProject
+diff -u file1 file2
+md5sum /path/to/destination/file
+diff -y -W 150 file1.cf file2.cf
+find .  -path '*/*config'
+find / -readable
+find -iname "filename"
+comm file1 file2
+find / -size 50c
+find ~/ -name *.tar.gz -newer filename
+rsync -av /path/to/files user@targethost:/path
+read -n 1 c
+read -n1 ans
+sudo env
+read -r -p "Are you sure? [Y/n]" response
+find . -nouser
+tail /var/log/syslog
+find . -path './sr*sc'
+HOSTNAME="`hostname`"
+find /home/bozo/projects -mtime 1
+find .
+sudo mkdir /data/db
+find . -name 'my*'
+dig -x 72.51.34.34
+find . -name "*.pl"
+find . -path "./sk" -prune -o -name "*.txt" -print
+mkdir tata
+find -iname "filename"
+find /Path -path "/Path/bar*" -name "file_name*"
+find /path -perm /g+w,o+w
+ls -lb
+find . -maxdepth 1 -iname "*linkin park*"
+find -user 1000
+df -h
+find -size 100k
+touch .bash_profile
+find . -name '*.js' -and -not -path directory
+find . -name test -delete
+cd -P ..
+find /etc -iregex '.*xt.*'
+gzip -kr .
+set -v
+find / -user root -name tecmint.txt
+find ~/Music/ -name "Automatically Add*"
+full_path=`readlink -fn -- $path`
+bind -P
+find . -size 6M
+split -l 100000 database.sql database-
+find /path -perm 777
+uname_m=`uname -m`
+find / -maxdepth 3  -name "*log"
+find /var/log
+rsync -u -r --delete dir_a dir_b
+awk '{s+=$1} END {printf "%.0f", s}' mydatafile
+find / -user admin -print
+scp -P 1234 user@[ip address or host name]:/var/www/mywebsite/dumps/* /var/www/myNewPathOnCurrentLocalMachine
+read dir
+diff -r dir1 dir2
+fname=`basename $f`
+find . -name "*.php" -print
+find . -name game
+grep -insr "pattern" *
+find . -mnewer poop
+find -mmin 1 -print
+chown root:root it
+find / -name "process.txt"
+awk '{printf "%s ", $0}' inputfile
+$ ls -Fltr "./my dir" "./anotherdir"
+mkdir -p "$FINALPATH"
+abspath=$(readlink -m $path)
+find . -follow -uid 0 -print
+find "$ORIG_DIR"
+pstree -a "$PID"
+find ./ -name "*.plist"
+find ./ -regex "cmn-.*[\x4e00-\x9fa5]*\.xml"
+find lpi104-6 -samefile lpi104-6/file1
+rmdir nonsense_dir
+find -L
+find -name foo_bar
+cd /tmp
+find . ! -readable -prune
+find foo -path foo/bar -print
+find /data/SpoolIn -name job.history
+source ~/.profile
+tr -cd ";0-9"
+find . -wholename './src/emacs' -prune -o -print
+find -mindepth 3 -maxdepth 5 -name passwd
+find /tmp -user ian
+set -e
+find . -regex '.+\.js'
+find . -name "*bash*"
+mv fghfilea jklfilea
+find /home/user/Desktop -name '*.bmp' -o -name '*.txt'
+find src -name "*.java"
+find . -name SCCS -prune -o -print
+mount /dev/shm
+find . -name '*.php' -o -name '*.xml' -o -name '*.phtml'
+find "$source_dir" -name "*.$input_file_type" -print0
+ssh -l myName -p 22 hostname
+bzip2 -dc xac.bz2
+seq -w 30
+find . -path ./.git  -prune -o -name file  -print
+find /etc -name '*.conf'
+column -x -c 30 /tmp/file
+rsync -av $myFolder .
+find . -maxdepth 1 -not -iwholename '*Video'
+find -not -name "query_to_avoid"
+ping -c 1 -t 1 192.168.1.1
+find . \! -path "./.git*" -a \! -name states_to_csv.pl
+find /home/wsuNID/ -name file1.txt
+find . -name 'test*' -prune
+set -v
+find . -user john
+find / -name whatever -not -path "/10_Recommended*" -not -path "/export/repo/*"
+find / -user root
+find -name "*.js" -not -path "./directory/*"
+sudo chown el my_test_expect.exp     //make el the owner.
+find / -atime 0
+find $DIR -name "*.txt"
+find / -name "apache-tomcat*"
+find -name teste.tex
+grep -v 'pattern' filename
+find /lib/modules -name '*.o'
+sudo chown root:wheel bin
+od -xcb testscript.sh
+cat
+find / -perm /u+rw,g+r,o+r
+diff -burNad teste1 teste2
+find . -name '*.txt' -o -name '*.html'
+find $DIR -name "*.txt" -print
+chmod -R a+rX *
+read -p "Are you sure you wish to continue?"
+find /Users/Me/Desktop -user popo -perm 777
+find . -name “*.jpg”
+split -b 500M -d -a 4 INPUT_FILE_NAME input.part.
+mkdir -p dir
+find . -mindepth 1 -name 'onlyme*'
+find /home/user/myusername/ -name myfile.txt -print
+kill -0 1
+find -name \*.txt
+find . -name '*shp*'   -execdir mv '{}/*' shp_all ';'
+find /home -user tecmint -iname "*.txt"
+find . -path ‘*/1/lang/en.css’ -print
+cat order.txt
+mv old tmp
+fg 2
+find ~/ -name *.tar.gz -newer filename
+find / -nouser
+find . -name *.rmv
+column list-of-entries.txt
+find ~ -name myfile
+find / -user user1
+find /path ! -perm /022
+find . -size 1234c
+find "$directory" -perm "$permissions"
+diff -q "$file" "${file/${dir1}/${dir2}}"
+read -p " Enter Here : " text
+find -name '*.css'
+uname -r
+split -l 100 input_file output_file
+diff -qr /tmp/dir1/ /tmp/dir2/
+egrep -R "word-1|word-2” directory-path
+find / -perm 644
+find . -path './sr*sc'
+find -newer /etc/passwd
+sudo  ln  -d  existing_dir  new_hard_link
+ln -sF /usr/share/my-editor/my-editor-executable   /usr/bin/my-editor
+find -name \*.txt
+sudo chown -R $USER /usr/local/lib/node_modules
+find "$d" -mindepth 1 -prune -empty
+df -k .
+read -p "Is this a good question (y/n)? " answer
+diff /tmp/test1  /tmp/test2
+find /var/log -group adm -name "*.log"
+column -t -s' ' filename
+find / -name 'top*'
+mkdir aaa/bbb
+find / -name "*.log"
+shred my-existing-file
+find -iname "MyCProgram.c"
+rsync -a -f"+ */" -f"- *" source/ destination/
+mkdir ~/Labs/lab4a/folder{1,2,3}
+find  / -name "apt"
+mkdir -p foo/bar/baz
+rename 's/^fgh/jkl/' fgh*
+find . -name 'javac'
+awk '{printf "%s ", $0} END {printf "\n"}' inputfile
+find . -name \*.php
+diff -q dir1 dir2
+me="$(whoami)"
+split -b 1024m file.tar.gz
+find . -regex '.*\.\(cpp\|h\)'
+find  / -iname findcommandexamples.txt
+find -not -user www-data
+find -cnewer /etc/fstab
+find . -name '*.txt' -print0

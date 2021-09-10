@@ -1,0 +1,321 @@
+mkdir /etc/cron.15sec
+find "$ORIG_DIR"
+who -la
+mkdir new_dir
+launcherfile=$(mktemp -p "$appdir" "$template")
+find . -name "accepted_hits.bam"
+tail /var/log/syslog
+find . -name \*.php
+diff --brief -r dir1/ dir2/
+sudo mv edited_blah.tmp /etc/blah
+find ~ -name 'arrow*'
+find . ! -path '*bar*' -print
+scp -P 2222 /absolute_path/source-folder/some-file user@example.com:/absolute_path/destination-folder
+less -N file.txt
+tar czfP backup.tar.gz /path/to/catalog
+find -path ./D -prune -o -name hi.dat -print
+rsync -avR $i /iscsi;
+find . -name 'a(b*' -print
+diff -Nar /tmp/dir1 /tmp/dir2/
+find / -group shadow
+sudo find . -print0
+find /usr/local -name "*blast*"
+sudo chown root /home/bob
+find /home ! -name "*.txt"
+find -name "*testfile*"
+crontab -e
+set -eu
+fg 2
+find -name TEST_3
+find . -iname *.txt -exec egrep mystring \{\} \;
+find / -name "apache-tomcat*"
+read -n1 -p "Pick a letter to run a command [A, B, or C for more info] " runCommand
+grep -r -H "text string to search” directory-path
+tree -fi
+wc -l /dir/file.txt
+bind '"\eY": "\e2\e."'
+find ~ -size 100M
+sort temp.txt -o temp.txt
+find ./ -executable
+tree -af
+set -x
+tmpdir=$(mktemp -d /tmp/tardir-XXXXXX)
+mkdir -p /tmp/test/blah/oops/something
+find . -mtime 1
+find . -name "file.ext" -execdir pwd ';'
+find . -name "foo.*"
+cat -v /dev/urandom
+mkdir alpha_real
+ssh -l myName -p 22 hostname
+uname -s -r -v
+find /usr /bin /sbin /opt -name sar
+chown root:specialusers dir1
+df -i
+sed -i.bak "s#https.*\.com#$pub_url#g" MyHTMLFile.html
+find ~/ -name '*.txt'
+find . -name something -print -quit
+gzip -l compressed.tar.gz
+sort -S 50% file
+find -name file -fprint file
+pwd -P
+cd -P xyz
+find . type -f -mtime 2
+find . -iname "{EA,FS}_*"
+sudo su
+find / -group users -iname "filename"
+find /home -name "*.txt"
+find / -user root
+ssh -O check officefirewall
+sudo su -l oracle
+ln -s /usr/share/my-ditor/my-editor-executable /usr/bin/my-editor
+find -name \*.plist
+find . -not -name "*.pl"
+chown amzadm.root  /usr/bin/aws
+find .  -perm 775
+cd /the/project/root//data
+comm -1 -3 file1 file2
+cp /file/that/exists /location/for/new/file
+which programname
+split --help
+sort -u FILE
+mkdir -p path2/{a..z}
+find . -uid 0 -print
+gzip -k *cache.html
+mkdir foo
+find . -iname "file*"
+md5 -s 'string to be hashed'
+find . -name "orm.*"
+find -name "*.txt"
+split -n 100000 /usr/bin/gcc
+comm file1 file2
+ln -s "$dir" "$1/link"
+bg %
+find /usr -newermt "Feb 1"
+ln -fs /etc/configuration/file.conf /etc/file.conf
+mv /source/path/{.[!.],}* /destination/path
+find .  -name .svn -prune -o -name "*.c" -print
+find . -iregex ".*packet.*"
+find -name "*.htm" -print
+rm -f A*.pdf
+tee /tmp/arjhaiX4
+find /var/log
+find / -newerct '1	minute ago' -print
+column -t -s $'\t' FILE
+foo=`which ~/f`
+find -user root -o -user www-data
+find . -name "file.ext" -execdir pwd ';'
+sudo su
+find /root/of/where/files/are -name *company*
+find / -newerct '1 minute ago' -print
+fold -w30 -s longline
+find -name "*test*" -depth
+find /users/tom -name "*.pl" -name "*.pm"
+split -b 1024m file.tar.gz
+find . -iname '*.jpg'
+df .
+source "$DIR/incl.sh"
+man find
+split -l 100 "$SOURCE_FILE"
+column -t -s $'\n' list-of-entries.txt
+find /Path -name "file_name*"
+tar -zcvf compressFileName.tar.gz folderToCompress
+zless MyFile
+sleep 5
+find . -name 'a(b*' -print
+rsync -vaut ~/.env* ~/.bash* app1:
+find / -xdev -name \*.rpm
+find . -name \*.html
+find / -newer /tmp/checkpoint
+find -maxdepth 1 -iname "*.txt"
+full_backup_dir="`find . -depth -print0`"
+history
+ssh -S my-ctrl-socket -O exit jm@sampledomain.com
+nl -s"^M${LOGFILE}>  "
+find /home -group test
+find / -name "*.old" -delete
+find . -name FOLDER1 -prune -o -name filename -print
+find . -depth -name *.zip
+diff -r dir1/ dir2/
+find / -path /proc -prune -o -user account -ls
+find . -name "S1A*1S*SAFE"
+find /tmp -user ian
+groups                                        //take a look at the groups and see
+find / -maxdepth 3  -name "*log"
+find / -name “*.jpg”
+mkdir -p es/LC_MESSAGES
+me=$(readlink --canonicalize --no-newline $0)
+set derby
+find . -name *disc*
+tee foobar.txt
+find -name file -ok echo '-ok is an action so an implicit -print is not applied' \;
+find . -empty
+diff -burNad teste1 teste2
+diff -y -W 150 file1.cf file2.cf
+find . ! -name "$controlchars"
+rsync -avh /home/abc/* /mnt/windowsabc
+od -xcb testscript.sh
+find . -samefile /path/to/file
+find --version
+rsync -u src dest
+find /home -not -group test
+find / -perm 1551
+gzip -d --force * /etc
+find . -perm a=rwx,g-w,o-w
+set -H
+find . -newer file
+find -name 'catalina*'
+SELF=`readlink /proc/$$/fd/255`
+find /home/user/Desktop -name '*.bmp' -o -name '*.txt'
+find / -mount -name 'win*'
+find /path -name '*.foo'
+find -name \*.txt
+find "$DIR" -name \*.txt
+cal 2 1900
+tree -L 2 -fi
+find -newer /etc/passwd
+find -daystart   -atime 0 -ls
+find /path/to/search -user owner
+find . ! -wholename "./etc*"
+find . -newer disk.log -print
+find / -name autoload.php
+find . -not -iwholename '*/.git/*'
+env -i
+find .  -path '*f'
+cut -d\  -f 2
+pstree -s $$
+find / -mount \! -readable -prune  -o  -path /dev -prune  -o  -name '*.jbd' -ls
+find /some/dir/ -maxdepth 0 -empty -exec echo "huzzah" \;
+find . -iname foo
+find / -iname passwd
+mkdir temp
+find /usr -name *stat
+find . -print
+find $ARCH1 -ls
+source=`mktemp`
+find -name photo.jpg
+TMP_FILE="$(mktemp -t)"
+chown "dev_user"."dev_user" -R ~/.ssh/
+find . -name *.pdf
+tee
+cal -h
+find ./ -name "*TextForRename*"
+tree -p -d
+mkdir --parents ./es_MX.utf8/LC_MESSAGES
+find . -name \*\:\*
+find dir -name '?????????????????????????????????'
+ssh -f -N -L localhost:12345:otherHost:12345   otherUser@otherHost
+find .
+find /var -regex '.*/tmp/.*[0-9]*.file'
+find  / -name "apt"
+find /etc -newer /etc/motd
+uname -a
+chmod a+x ComputeDate col printdirections
+find . -empty
+find . -mtime 0 -print
+find / -nouser -o  -nogroup
+cp -R SRCFOLDER DESTFOLDER/
+find /usr -newer /tmp/stamp
+find . -iname "*needle*"
+chmod 600 file
+sort -nrk 2,2 file.dat
+find . -inum NUM
+find . -name "process.txt"
+ifconfig eth0:fakenfs 192.0.2.55 netmask 255.255.255.255
+mkdir mnt point
+find -name \*.txt
+history -r .cwdhist
+ping -a 10.100.3.104
+files=`find .`
+find -newer ordinary_file
+find . -iname foo
+gzip -kr .
+mv Tux.png .Tux.png
+ln -s -- ./local--pdf-kundendienst -pdf-kundendienst
+find . -regex '.+\.php'
+ls -d */
+mv fghfilea jklfilea
+split -l $MAX_LINES_PER_CHUNK $ORIGINAL_FILE $CHUNK_FILE_PREFIX
+find . -name "*.java"
+sudo chmod 755 -R /opt/lampp/htdocs
+find .  -perm 775 -print
+find . -iname "Articles.jpg"
+cp -R "$1" "$2"
+find src -name "*.java"
+du -sh *
+find / -print
+find /etc -iregex '.*xt.*'
+nl -v1000001 file
+find / -newer ttt -user wnj -print
+ln -nsf $lastModified $SYMLINK_PATH
+find /path/to/dir -newermt yyyy-mm-dd ! -newermt yyyy-mm-dd -ls
+find / -newerct '1 minute ago' -print
+find /volume1/uploads -name "*.mkv"
+man find
+comm abc def
+find /myfiles -mtime 2
+chgrp -R fancyhomepage /home/secondacc/public_html/community/
+find . -regex ".*/my.*p.$" -a -not -regex ".*test.*"
+basename -a "${alpha[@]}"
+cal -3
+mv -t target file1 file2 ...
+find -name '*macs'
+find wordpress -name '*js'
+find / -name "dir-name-here"
+mkdir dir1
+ssh -L localhost:8000:clusternode:22 user@bridge
+find . -name "pattern" -print
+find / -newer ttt -user wnj -print
+find . -name f* -print
+source ~/.profile
+find . -size 0k
+find . -regex './[0-9].*' -print
+rsync -av /home/user1/ wobgalaxy02:/home/user1/
+find "$some_directory" -name '.*' ! -name '.' ! -name '..' -delete
+chgrp -R git .git
+find . -regex ".*/my.*p.$" -a -not -regex ".*test.*"
+apropos -r '.*'
+tail -r myfile.txt
+find $HOME \! -iname "*.c" print
+find . -name \*.c -print
+cat n
+cp -n src dest
+find jcho -name *.data
+find /usr/local/doc -name '*.texi'
+mkdir ~/log
+ssh -i ~/path/mykeypair.pem ubuntu@ec2-XX-XXX-XXX-XXX.us-west-2.compute.amazonaws.com
+rm -r classes
+find . -name *.jpg
+find / -iname TeSt123.txt
+split -l9 your_file
+ssh-keygen -pf private.key
+find /usr/share/man/ -regex grep.*
+mkdir Labs/lab4a/{folder1,myfolder,foofolder}
+mkdir foo bar
+ls /home/dreftymac/*
+find /usr/local/doc -name '*.texi'
+tar -xzvf backup.tar.gz
+df --total
+rm foo
+find . -exec echo xx{}xx \;
+find . -mtime 1
+find / -nouser -exec rm {}\;
+TMPPS_PREFIX=$(mktemp "${TMPDIR:-/tmp/}${tempname}.XXXXXX")
+rm -r $TMPDIR
+find / -maxdepth 3  -name "*log"
+path=`readlink --canonicalize "$dir/$file"`
+find . -name 'my*'
+ln -s "$file"
+find -s
+find . -lname "*"
+cp -r ../include/gtest ~/usr/gtest/include/
+other="$(mktemp --directory)"
+basename "some/unknown/amount/of/sub/folder/file.txt"
+chown -R :lighttpd /var/lib/php/session
+tmux
+mv * /tmp/blah/
+cp /dev/null emptyfile.c
+find . -name SCCS -prune -o -print
+find /Path/bar* -name "file_name*"
+grep -insr "pattern" *
+find /root -name FindCommandExamples.txt
+find . -name "*.txt" -delete

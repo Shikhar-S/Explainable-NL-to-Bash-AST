@@ -1,0 +1,320 @@
+find all files that are exactly _NUMBER bytes
+display _FILE with lines numbered and page interactively through result
+search for file _FILE in entire file system
+read a line from standard input into variable _REGEX with prompt _REGEX
+display all text files in current folder
+recall second argument from a previous command by pressing alt-shift-y
+recursively copy _REGEX to _REGEX and delete any new files in _REGEX
+find all text files in folder _FILE and not search beyond _NUMBER levels
+find all files and directories under current directory and put output into _REGEX variable
+select everything selected by _REGEX without descending into any directories
+find all files whose name is _FILE in current directory
+for each line whose first field is same in _REGEX and _REGEX output common first field followed by all other fields in _REGEX and _REGEX
+change permissions of _REGEX to _NUMBER
+search current directory and all of its sub-directory for any _FILE files being careful to prevent shell from expanding _REGEX before it 's passed to find
+print full path of command _REGEX
+show find 's version
+search current directory tree for files whose names begin with _REGEX
+list all _FILE files and directories under _FILE with full paths
+find all files and directories under _REGEX directory tree excluding directory _FILE and all of it 's contents
+verbosely compresses all files on sixth and seventh depth level keeping original files in place
+send sigterm signal to first process sent to background by current shell
+verbosely compresses all files on second and third depth level keeping original files in place
+find all files and directories with _FILE extension under current directory tree excluding paths that contain directory _FILE
+search entire file hierarchy for files ending in _FILE and delete them
+display version of find command
+perform case-insensitive search for file _FILE on system
+find all _FILE files and directories in entire file system
+set variable value to current kernel release name
+verbosely create intermediate directory _FILE as required and directory postinst
+create intermediate directories _REGEX
+find out all files owned by user vivek
+print unique lines of sorted file _REGEX compared with sorted file _REGEX
+find all files whose owner is _REGEX
+send one ping request to host whose name or ip address is specified by variable _REGEX using network interface _REGEX
+execute _REGEX every second
+returns a list of files modification newer than poop
+start from current directory skip directory _FILE and print it skip all files and directories under it and print names of other files found
+find files and directories with inode number _NUMBER under _FILE directory tree without traversing other _FILE
+sort lines in _REGEX to standard output preserving only unique lines
+read a line of standard input in an interactive shell
+recursively copy _FILE on host _REGEX to local directory _FILE connecting as ssh username corresponding to local username
+create directory _REGEX into home directory
+move _FILE to docker container _REGEX in path _FILE
+list current directory recursively ignoring _REGEX subdirectory
+read a line from standard input with prompt _REGEX arrow keys enabled and _REGEX as default input and save response to variable _REGEX
+find all files and directories named _FILE under current directory tree
+create a compressed archive with files newer than _REGEX of _DATETIME
+find all _PERMISSION files in current directory tree
+find files and directories under current directory without descending into it
+number each non-blank line of standard input
+creates temporary file in a current folder and saves path to it in _REGEX variable
+find all executable files in file system
+make directories _REGEX and _REGEX
+find all files and directories named _REGEX in entire filesystem
+time stamp every ping request to _FILE in unix epoch format
+find _FILE files in current directory tree that were modified _NUMBER days ago
+recursively list contents of current directory in a tree-like format
+gets back to foreground a job with number _NUMBER
+print space separated list of numbers from _REGEX to _REGEX
+find all files in current directory tree whose path names match pattern _FILE
+make directory _REGEX
+save short dns lookup output of _REGEX to _REGEX variable
+display current system 's kernel name kernel release and version and machine architecture
+recursively changes group ownership of everything in _REGEX to _REGEX
+copies _REGEX to _REGEX preserving overwriting existing files
+create a symbolic link named _REGEX to _REGEX
+make directories _FILE as needed in current directory
+find all _FILE files under current directory and below
+split _FILE into files of at most _NUMBER mib preserving lines and use a prefix of _FILE and numeric suffixes
+search for files having python in filename
+find all _REGEX files and directories under _FILE
+returns exit code _NUMBER and terminates shell if _REGEX was applied
+find all files in home folder which are empty
+archive _FILE on host _REGEX to current directory
+display all text files in current folder and not search in _FILE directory
+print summary of _FILE files and which files differ between _REGEX and _REGEX
+find files which full path name like _REGEX at current directory and print
+find all _FILE files and directories under current directory
+extracts a _REGEX file
+read a line of standard input with prompt _REGEX and suggestion _DIRECTORY and save response to variable _REGEX
+change owner of _REGEX to _REGEX
+find all files and directories under _DIRECTORY directory tree whose names end with _REGEX and were modified exactly _NUMBER days ago
+search current directory recursively for regular files last accessed _NUMBER days ago
+find all _FILE files under _FILE and delete them
+search for all files with same inode num
+find all files in current directory which been modified after a file
+add group write permission to all files and directories in current directory including hidden files and excluding _FILE
+split file _REGEX into pieces per _NUMBER lines
+find all hidden files starting from directory given as variable _REGEX
+find file _REGEX in current folder
+find all files and directories under _REGEX directory
+recursively removes _REGEX folder prompting user on each deletion
+search in current folder for files that begin with _REGEX
+search _FILE for _FILE and _FILE files
+make directory _REGEX
+change ownership of _FILE to _REGEX
+start program _REGEX with an empty environment
+change permissions of _FILE to _NUMBER
+save standard input to variable _REGEX
+print help message for tree
+search directory foo for files containing _FILE in full names
+display all file in home folder except _FILE files
+find all files ending with _FILE in current folder
+find files and directories named blah under current directory
+saves location of file _REGEX in _REGEX variable
+display all files in usr folder which been modified after _DATETIME
+find files with extension _FILE in _FILE directory
+display all files having spaces in current folder
+read a single character from standard input into variable _REGEX with prompt _REGEX
+display permissions user group and full path for each file in current directory tree
+recursively print all files and directories in current directory tree
+search for file centos in _FILE folder
+recursively change group of all files in _FILE to _REGEX
+find empty directories and files under current directory
+print content of _REGEX file showing all non-printing characters and displaying _REGEX at end of each line
+print full path of command _FILE
+search in current directory downwards all files which permission _NUMBER
+only get _REGEX of a file
+find all _FILE files and directories under _FILE directory
+creates temporary file in default folder and saves path to it in _REGEX variable
+display differences between directories _REGEX and _REGEX treating absent files as empty
+find a used disk space of a target directory and files inside of it
+rename all _FILE files to _FILE
+display all files in current folder
+create a symbolic link named _REGEX to _REGEX file
+recursively change owner and group of all files in current directory to _REGEX
+find files and directories named _FILE that belong to user _REGEX in entire filesystem
+page through contents of file _REGEX positioning view at first occurrence of regular expression _REGEX
+find all files whose name is _FILE and contains both capital and small letters in _DIRECTORY directory
+find _FILE files in current directory recursively
+ssh with parameters specified in _REGEX using key file _FILE
+saves location of file _REGEX in _REGEX variable
+find all files and directories named _REGEX under current directory tree
+returns first _NUMBER bytes in file
+search all non-hidden files in current directory and all non-hidden sub-directories for file _FILE
+change owner to _REGEX and group to _REGEX of _FILE
+delete all hidden files and directories under _REGEX including _REGEX
+concatenate with a space every other line in _FILE
+remove _REGEX from all file or directory names under current directory
+display all _FILE files in current folder
+search current directory tree for files containing _FILE in names
+recursively change owner to _REGEX and group to _REGEX of _REGEX
+display all file in folder _DIRECTORY which start with word _REGEX
+find all _FILE files which path not contain _FILE nor _FILE
+print list of files and directories of _FILE directory
+find _FILE files in current directory tree that are not under _FILE directories
+find all files and directories that are newer than _FILE by modification time
+find _FILE files in current directory tree skipping all directories that match pattern _FILE
+locates _REGEX command in a system
+search for file _REGEX in folder _FILE
+list all environment variables
+search in current directory downwards all files which were accessed exactly _NUMBER days back
+search current directory tree for files whose name is _FILE case insensitive
+recursively change owner and group of directory and group of directory and all files into it to user and group _REGEX
+create directory _FILE
+recursively copy all files and directories matching _REGEX in localhost 's directory _DIRECTORY to _FILE on localhost connecting as ssh user _REGEX in batch mode preserving file permissions and timestamps and without displaying progress information
+read a line from standard input into variable _REGEX with prompt _FILE
+replace all instances of _REGEX with _REGEX in file _FILE and make a backup with suffix _FILE
+unzip file _REGEX
+print second section of space-separated data coming from stdin
+find _FILE files in _FILE directory tree
+simulate a full login
+recursively copy directory _FILE to _FILE
+copy _DIRECTORY over network to _DIRECTORY preserving directory hierarchy
+report file systems disk usage slide all entries insignificant to available space and produce a grand total
+find all files and directories with _FILE extension in maximum _NUMBER levels down current directory
+find files modified more recently than file poop
+find all _FILE files under _FILE
+make directory _FILE
+display current directory tree except files or directories starting with _REGEX
+find file end with _FILE in current directory
+sort _REGEX delimited lines in _REGEX by first field preserving only unique lines
+clear in-memory history and read from current history file
+find files that not a listing in _FILE or _FILE in file system
+find all _FILE files under current directory
+opens menu item _REGEX _REGEX _REGEX _REGEX _REGEX _REGEX _REGEX in _REGEX manual
+create directory _REGEX
+pass a wildcard to scp by escaping it copy all files with names starting with _REGEX in directory _FILE on host _REGEX to current directory on local machine displaying debug info and preserving timestamps and permissions on copied files
+display summary of each specified file in human readable form
+save absolute path of current script to variable _REGEX
+create a symbolic link in _DIRECTORY to _FILE
+locate all files in current directory and below that _REGEX in names
+find all text files in file system and search only in disk partition of root
+replace all newlines from standard input except last with spaces
+move _FILE to _DIRECTORY directory
+find all read files in a folder
+finds strings like _REGEX recursively in all files of a current folder regarding all symlinks
+find _FILE files in current directory and replace foo with bar in those files
+find all configuration files in file system
+force create a symbolic link named _REGEX to _REGEX with verbose output
+find all text files in current folder which been modified exactly _NUMBER days ago
+sort _FILE and output result to _FILE
+archive _FILE to host _REGEX using relative path names
+silently read _REGEX number of symbols from file descriptor _NUMBER without backslash escaping and store received input in _REGEX variable
+create intermediate directories _REGEX and _REGEX as required and create _REGEX
+change user and group of file _FILE to user amzadm and group root
+print ip addresses of host name
+print full path of command _REGEX
+sort _REGEX by first and second _REGEX delimited entries and stabilizing sort
+copies files _FILE and _FILE with fully-defined path to _FILE directory
+find all files under directory tree _FILE whose permissions are not _NUMBER
+search current directory recursively for _FILE files whose names begin with _REGEX
+locate all _FILE files under current directory tree
+locate all _FILE files under current directory tree separating file names with zeroes
+delete all files in current directory tree whose names end with _REGEX
+display all files in current folder
+append contents of _FILE file to current in-memory history list
+prints process tree of user _REGEX processes
+print all files in current directory and all subdirectories
+wrap standard input to fit in _NUMBER characters per line
+recursively changes group ownership of everything within current folder to _REGEX
+prints process tree of current process with parent processes
+report file systems disk usage using posix output format
+search for all files ending with _REGEX in folder _FILE
+modify interval to _NUMBER seconds for watch command
+find all files and directories named _FILE in entire filesystem
+find all files in current directory excluding hidden files and put output into _REGEX variable
+creates temporary file and saves path to it in a _REGEX variable
+displays all files in current directory
+find all files and directories named _REGEX under current directory tree
+removes _FILE in _REGEX mode
+set timestamp of B to same one as A
+connect to host _REGEX as ssh user _REGEX and copy local file _FILE to _REGEX 's directory _DIRECTORY
+save user name of current user to variable _REGEX
+find all _FILE files and directories under current directory
+display all files in current folder which are in path _FILE
+print _REGEX for every file or directory found by name _REGEX under current directory tree
+find all files in current directory that extension _REGEX and dont search in subdirectories directories
+search _FILE directory for empty subdirectories
+find all _PERMISSION set files in file system
+create intermediate directories _DIRECTORY as required and directories baz _FILE bang
+change ownership of _FILE to _REGEX
+identify files that not a listing in _FILE or _FILE file
+display a long listing of all files in current folder that been accessed in _DATETIME from start of day
+prints strings with text _REGEX in all files recursively in a current folder
+list all files in _FILE directory tree that were modified exactly one day ago
+archive _REGEX to _FILE suppressing non-error messages and compressing data during transmission
+removes _REGEX folder if empty
+search for file _FILE in current folder
+find files and directories under current directory and print them as null terminated strings
+display inputfile all on one line
+read a line from standard input into variable _REGEX using first argument as prompt
+prints long listing of content in current folder with c-style escapes for nongraphic characters
+archive _FILE to _FILE on host _FILE authenticating as user _REGEX compress data during transmission show progress details
+dump _REGEX as _SIZE wide hexadecimal and printable characters
+search in current directory downwards all files whose size is _NUMBER bytes
+forward port _NUMBER on localhost to port _NUMBER on _FILE via _REGEX on port _NUMBER
+find all _FILE files in current folder
+search file aaa from current direcotry downwards and print it
+test if a file named _REGEX in current directory is more than _TIMESPAN old
+archive _FILE to _FILE with human readable output
+change owner of _REGEX to _REGEX
+archive directory _REGEX to directory _REGEX compressing data during copy
+copies _REGEX to _FILE rewriting files if necessary
+list all files except for those in directory sccs
+find all _FILE files and directories under _FILE with null character as delimiter
+find all files on system whose names are _REGEX
+change owner of file _FILE to user root
+split _FILE into files of at most _NUMBER bytes each with prefix _FILE
+find all files and directories that start with _REGEX in names under current directory tree
+display all files in directory modules
+find all files in current directory and sub-directories that were accessed after modifying _FILE
+find all files of user with _REGEX
+write standard input to standard output and to _FILE
+edit cron job list for user _REGEX using default editor specified by editor environment variable or _FILE if no default editor is specified
+find files and directories under _FILE directory tree that are newer than _FILE by modification time
+display all files in current folder which not belong to user john
+search current directory recursively for regular files modified _NUMBER days ago
+changes group ownership of _FILE to _REGEX
+create a symbolic link named _REGEX to _FILE
+find all files in file system which been accessed in last _NUMBER hours
+find all files in entire file system which are modified _NUMBER days back
+prints process tree with command line arguments and process id numbers
+find all executable files
+print list of files in directory _FILE recursively
+print short dns lookup for each domain name in a file _REGEX
+print numbers from _NUMBER to number in variable _REGEX
+find all filenames ending with _FILE in current directory tree case insensitive
+display detailed usage help of _REGEX command
+find all files and directories under current directory that were modified later than _FILE
+deletes empty folder _REGEX
+search current directory tree for all files matching either pattern _FILE or pattern _FILE
+display all empty files in current folder
+find files associated with an inode
+print info about all mounted file systems and grand total statistic about available and used space
+search for all files with either _REGEX or _REGEX in path names
+save absolute path of current script to variable _REGEX
+recursively change user and group of all files in _FILE to _REGEX
+find all files which were modified _NUMBER days ago
+rename _REGEX to _REGEX and make a backup if _REGEX exists
+find all files that been modified since last time checked
+find out all hard links in _FILE directory to _REGEX
+find files starting with word _REGEX in current directory tree ignoring case
+copy _REGEX recursively to _REGEX but without overwriting existing files
+read a single character from standard input with prompt _REGEX
+find all files and directories under current directory with null character as delimiter
+store N symbols of input into variable _REGEX
+silently read a single character from standard input into variable _REGEX without backslash escapes with a timeout of _NUMBER seconds and using prompt _REGEX
+changes group ownership of _REGEX to _REGEX
+merge lines whose first comma-separated field in file _REGEX also appears as a first comma-separated in file _REGEX both files be sorted
+check environment variables generated by switching to root account
+create directories foo and bar
+find all files in current directory tree named _FILE
+find all files in current directory with name _REGEX which are in current device
+list all _FILE files in current directory tree
+report total size of root filesystem disk usage in powers of _NUMBER
+find files matching an exact set of permissions
+find files in current directory tree whose permissions are _NUMBER
+rename _REGEX to _FILE
+search given _REGEX for files with permissions stored in _REGEX
+search for _REGEX in and below current directory
+remove all _FILE files under current directory
+find all files in a direcotry which been modified in exactly _TIMESPAN back
+find all files and directories under current directory tree excluding files and directories with name _REGEX
+search for text files in folders _DIRECTORY _FILE
+find all files and directories that contain string literal _REGEX in names under current directory tree
+lists all top-level files in a _DIRECTORY folder
+display all files in home folder which end with _FILE
+find all _FILE files and directories under dir directory ignoring _FILE path
+find all _REGEX files in file system
